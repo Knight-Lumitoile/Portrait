@@ -1,0 +1,27 @@
+.Pages {
+    background-color: #333;
+}
+
+.Page {
+    height: 500px;
+}
+
+.Stepper {
+    position: fixed;
+    width: 100vw;
+    bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.ant-steps-item-container{
+    background: none !important;
+}
+.ant-steps-item-content{
+    margin-top: -2.5rem !important;
+}
+.ant-steps-item-active .ant-steps-item-title{
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+.ant-steps .ant-steps-item-process .ant-steps-item-icon >.ant-steps-icon{
+    color: black !important;
+}
