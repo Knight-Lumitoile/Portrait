@@ -1,0 +1,18 @@
+[
+    {
+        "key": "en_US",
+        "label": "English"
+    },
+    {
+        "key": "ja_JP",
+        "label": "日本語"
+    },
+    {
+        "key": "zh_CN",
+        "label": "中文"
+    },
+    {
+        "key": "fr_FR",
+        "label": "French"
+    }
+]

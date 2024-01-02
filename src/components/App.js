@@ -1,48 +1,76 @@
 import './App.css';
-import {Pages, Page} from "./_library/Pages";
-import {useState} from "react";
+import PageControl from "./controllers/PageControl";
+import {createContext, useState} from "react";
 import {ConfigProvider, theme, Typography} from "antd";
+import LocaleControl from "./controllers/LocaleControl";
+import Cover from "./pages/Cover";
+import ScreenLock from "./controllers/ScreenLock";
+
+const AppConfig = createContext(undefined)
 
 function App() {
 
-    const [test,_test]=useState(0)
+    const [test, _test] = useState(0)
+    const [locale, _locale] = useState("zh_CN")
+
+    const [isAppReady, _isAppReady] = useState(false)
+    const [isAnimationCompleted, _isAnimationCompleted] = useState(false)
+
+    const startApp = () => {
+        _isAppReady(true)
+        setTimeout(() => {
+            _isAnimationCompleted(true)
+        }, 2600)
+    }
+
     return (
-        <div className="App">
-            <ConfigProvider theme={{
-                algorithm:theme.darkAlgorithm
-            }}>
-                <div style={{position:"fixed"}} onClick={()=>_test(v=>(v+1)%5)}>button {test}</div>
-                <Pages currentPage={test} onChange={_test} steps={[
-                    "Portrait肖像",
-                    "Journey旅程",
-                    "Creation造物",
-                    "Interest兴趣",
-                    "Connect联络"
-                ]}>
-                    <Page pageIndex={0}>
-                        <Typography.Text>Portrait肖像</Typography.Text>
-                        <div>666</div>
-                    </Page>
-                    <Page pageIndex={1}>
-                        <Typography.Text>Journey旅程</Typography.Text>
-                        <div>666</div>
-                    </Page>
-                    <Page pageIndex={2}>
-                        <Typography.Text>Creation造物</Typography.Text>
-                        <div>666</div>
-                    </Page>
-                    <Page pageIndex={3}>
-                        <Typography.Text>Interest兴趣</Typography.Text>
-                        <div>666</div>
-                    </Page>
-                    <Page pageIndex={4}>
-                        <Typography.Text>Connect联络</Typography.Text>
-                        <div>666</div>
-                    </Page>
-                </Pages>
-            </ConfigProvider>
-        </div>
+        <>
+            <div>
+                {/*<Cover/>*/}
+            </div>
+            <div className="App">
+
+                <div style={{position: "fixed", color: "red", top: 50, zIndex: 9999}} onClick={startApp}>button {test}</div>
+
+
+                <AppConfig.Provider value={{locale, _locale}}>
+                    <ConfigProvider theme={{
+                        algorithm: theme.darkAlgorithm
+                    }}>
+                        <LocaleControl/>
+                        <ScreenLock active={!isAnimationCompleted}/>
+                        <div style={{position: "fixed", color: "white", top: 30}} onClick={() => _test(v => (v + 1) % 5)}>button {test}</div>
+                        <PageControl.Parent currentPage={test} onChange={console.log}>
+                            <PageControl.Child>
+                                <Cover ready={isAppReady}/>
+                            </PageControl.Child>
+                            <PageControl.Child pageIndex={1}>
+                                <Typography.Text>Journey旅程</Typography.Text>
+                                <div>666</div>
+                            </PageControl.Child>
+                            <PageControl.Child pageIndex={2}>
+                                <Typography.Text>Creation造物</Typography.Text>
+                                <div>666</div>
+                            </PageControl.Child>
+                            <PageControl.Child pageIndex={3}>
+                                <Typography.Text>Interest兴趣</Typography.Text>
+                                <div>666</div>
+                            </PageControl.Child>
+                            <PageControl.Child pageIndex={4}>
+                                <Typography.Text>Connect联络</Typography.Text>
+                                <div>666</div>
+                            </PageControl.Child>
+
+
+                        </PageControl.Parent>
+                    </ConfigProvider>
+                </AppConfig.Provider>
+            </div>
+        </>
     );
 }
 
 export default App;
+export {
+    AppConfig
+}

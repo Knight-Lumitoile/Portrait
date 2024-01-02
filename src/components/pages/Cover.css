@@ -1,0 +1,74 @@
+
+.Cover {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    transition: background-color .3s 2s ease-in-out;
+    position: relative;
+}
+.Cover.Ready{
+    background-color: #333;
+}
+
+.Logo {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    position: absolute;
+    transition: opacity .3s 2s ease-in-out, transform .6s 2s ease-in-out;
+}
+
+.Logo.No2 {
+    opacity: 0;
+    fill: #FFFFFF;
+}
+
+.Logo.No2.Ready {
+    transform: scale(.7) translateY(-100%);
+    opacity: 1;
+}
+
+.Logo.No1.Ready {
+    transform: scale(.7) translateY(-100%);
+}
+.Logo.No1 > .Base {
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+
+.Logo.No1 > .Stars {
+    opacity: 0;
+    transition: opacity .3s .2s ease-in-out;
+}
+
+.Logo.No1 > .Knight {
+    opacity: 0;
+    transition: opacity .3s .4s ease-in-out;
+}
+
+.Logo.No1 > .Furina {
+    transform: translateY(100%) scale(0);
+    opacity: 0;
+    transition: transform .3s 1s ease-in-out, opacity .3s .8s ease-in-out;
+}
+
+.Logo.No1.Ready > .Furina {
+    transform: translateY(0%) scale(1);
+    opacity: 1;
+}
+
+.Logo.No1.Ready > .Base {
+    opacity: 1;
+}
+
+.Logo.No1.Ready > .Stars {
+    opacity: 1;
+}
+
+.Logo.No1.Ready > .Knight {
+    opacity: 1;
+}
+

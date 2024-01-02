@@ -1,0 +1,36 @@
+{
+    "label": {
+        "pages": [
+            {
+                "en_US": "Portrait",
+                "ja_JP": "肖像",
+                "zh_CN": "肖像",
+                "fr_FR": "Portrait"
+            },
+            {
+                "en_US": "Journey",
+                "ja_JP": "旅程",
+                "zh_CN": "旅程",
+                "fr_FR": "Voyage"
+            },
+            {
+                "en_US": "Creation",
+                "ja_JP": "造物",
+                "zh_CN": "造物",
+                "fr_FR": "Création"
+            },
+            {
+                "en_US": "Interest",
+                "ja_JP": "兴趣",
+                "zh_CN": "兴趣",
+                "fr_FR": "Intérêt"
+            },
+            {
+                "en_US": "Connect",
+                "ja_JP": "联络",
+                "zh_CN": "联络",
+                "fr_FR": "Connexion"
+            }
+        ]
+    }
+}

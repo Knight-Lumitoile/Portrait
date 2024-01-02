@@ -1,0 +1,8 @@
+.LocaleControl {
+    position: fixed;
+}
+
+.LocaleControl .ant-float-btn {
+    inset-inline-end: 20px;
+    inset-block-end: 24px;
+}
