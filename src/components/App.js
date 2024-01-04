@@ -20,14 +20,11 @@ function App() {
         _isAppReady(true)
         setTimeout(() => {
             _isAnimationCompleted(true)
-        }, 2600)
+        }, 2000)
     }
 
     return (
         <>
-            <div>
-                {/*<Cover/>*/}
-            </div>
             <div className="App">
 
                 <div style={{position: "fixed", color: "red", top: 50, zIndex: 9999}} onClick={startApp}>button {test}</div>
@@ -37,10 +34,8 @@ function App() {
                     <ConfigProvider theme={{
                         algorithm: theme.darkAlgorithm
                     }}>
-                        <LocaleControl/>
                         <ScreenLock active={!isAnimationCompleted}/>
-                        <div style={{position: "fixed", color: "white", top: 30}} onClick={() => _test(v => (v + 1) % 5)}>button {test}</div>
-                        <PageControl.Parent currentPage={test} onChange={console.log}>
+                        <PageControl.Parent currentPage={test} onChange={console.log} steps={isAnimationCompleted}>
                             <PageControl.Child>
                                 <Cover ready={isAppReady}/>
                             </PageControl.Child>
@@ -60,9 +55,9 @@ function App() {
                                 <Typography.Text>Connect联络</Typography.Text>
                                 <div>666</div>
                             </PageControl.Child>
-
-
                         </PageControl.Parent>
+                        
+                        <LocaleControl/>
                     </ConfigProvider>
                 </AppConfig.Provider>
             </div>

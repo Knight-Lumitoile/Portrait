@@ -3,6 +3,6 @@
 }
 
 .LocaleControl .ant-float-btn {
-    inset-inline-end: 20px;
-    inset-block-end: 24px;
+    inset-inline-end: 16px;
+    inset-block-start: 16px;
 }
