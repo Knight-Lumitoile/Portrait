@@ -2,6 +2,10 @@
     position: fixed;
 }
 
+.LocaleControl .ant-float-btn-body {
+    background-color: inherit !important;
+}
+
 .LocaleControl .ant-float-btn {
     inset-inline-end: 16px;
     inset-block-start: 16px;

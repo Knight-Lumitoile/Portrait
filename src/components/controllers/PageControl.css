@@ -9,10 +9,19 @@
 .Stepper {
     position: fixed;
     width: 100vw;
-    bottom: 2rem;
+    bottom: 9vh;
     display: flex;
     justify-content: center;
 }
+
+/*.Stepper .ant-steps {*/
+/*    opacity: .3;*/
+/*    transition: opacity .3s ease-in-out;*/
+/*}*/
+
+/*.Stepper .ant-steps:hover {*/
+/*    opacity: 1;*/
+/*}*/
 
 .Stepper .ant-steps-item {
     min-width: 50px;

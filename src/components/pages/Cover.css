@@ -16,7 +16,7 @@
 .Logo {
     width: 200px;
     height: 200px;
-    margin-bottom: 30px;
+    left: calc(50vw - 100px);
     top: calc(50vh - 130px);
     position: absolute;
     transition: opacity .3s 2s ease-in-out, transform .6s 2s ease-in-out, top .6s 2s ease-in-out;
@@ -28,8 +28,8 @@
 }
 
 .Logo.Ready {
-    transform: scale(.6);
-    top: 10vh;
+    transform: scale(.7);
+    top: calc(30vh - 100px);
     opacity: 1;
 }
 
@@ -69,4 +69,10 @@
 
 .Logo.No1.Ready>.Knight {
     opacity: 1;
+}
+
+.Prologue{
+    text-align: center;
+    margin-top: 26vh;
+    max-width: 80vw;
 }

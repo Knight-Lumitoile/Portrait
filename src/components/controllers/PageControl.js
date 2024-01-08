@@ -62,7 +62,7 @@ function Pages({ children, currentPage = 0, onChange, steps }) {
             <div className={"Stepper"}>
                 {
                     steps ?
-                        <Fade direction={"up"}>
+                        <Fade delay={3300} triggerOnce>
                             <Steps
                                 current={step}
                                 onChange={scrollTo}

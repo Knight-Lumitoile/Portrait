@@ -5,6 +5,9 @@ import {ConfigProvider, theme, Typography} from "antd";
 import LocaleControl from "./controllers/LocaleControl";
 import Cover from "./pages/Cover";
 import ScreenLock from "./controllers/ScreenLock";
+import {Fade} from "react-awesome-reveal";
+import ScrollDemon from "./controllers/ScrollDemon";
+import Journey from "./pages/Journey";
 
 const AppConfig = createContext(undefined)
 
@@ -40,8 +43,7 @@ function App() {
                                 <Cover ready={isAppReady}/>
                             </PageControl.Child>
                             <PageControl.Child pageIndex={1}>
-                                <Typography.Text>Journey旅程</Typography.Text>
-                                <div>666</div>
+                                <Journey/>
                             </PageControl.Child>
                             <PageControl.Child pageIndex={2}>
                                 <Typography.Text>Creation造物</Typography.Text>
@@ -56,8 +58,15 @@ function App() {
                                 <div>666</div>
                             </PageControl.Child>
                         </PageControl.Parent>
-                        
-                        <LocaleControl/>
+                        {
+                            isAnimationCompleted ?
+                                <Fade delay={3300} triggerOnce>
+                                    <LocaleControl/>
+                                    <ScrollDemon/>
+                                </Fade>
+                                :
+                                <></>
+                        }
                     </ConfigProvider>
                 </AppConfig.Provider>
             </div>
