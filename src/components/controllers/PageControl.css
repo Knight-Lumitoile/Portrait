@@ -12,16 +12,15 @@
     bottom: 9vh;
     display: flex;
     justify-content: center;
+
 }
 
-/*.Stepper .ant-steps {*/
-/*    opacity: .3;*/
-/*    transition: opacity .3s ease-in-out;*/
-/*}*/
-
-/*.Stepper .ant-steps:hover {*/
-/*    opacity: 1;*/
-/*}*/
+.Stepper > div {
+    background-color: #FFFFFF;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 1) 0px 0px 10px 10px;
+}
 
 .Stepper .ant-steps-item {
     min-width: 50px;
@@ -37,18 +36,18 @@
 
 .Stepper .ant-steps-item-title {
 
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .Stepper .ant-steps-item-active .ant-steps-item-title {
-    color: rgba(255, 255, 255, 0.8) !important;
+    color: rgba(0, 0, 0, 0.8) !important;
 }
 
 .Stepper .ant-steps-item:hover .ant-steps-item-title {
-    color: rgba(255, 255, 255, 0.8) !important;
+    color: rgba(0, 0, 0, 0.8) !important;
 }
 
 
 .Stepper .ant-steps .ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon {
-    color: transparent !important;
+    /*color: transparent !important;*/
 }

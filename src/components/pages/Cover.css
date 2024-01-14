@@ -4,13 +4,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FFF;
+    background-color: #333;
     transition: background-color .3s 2s ease-in-out;
     position: relative;
 }
 
 .Cover.Ready {
-    background-color: #333;
+    background-color: #fafafa;
 }
 
 .Logo {
@@ -21,10 +21,15 @@
     position: absolute;
     transition: opacity .3s 2s ease-in-out, transform .6s 2s ease-in-out, top .6s 2s ease-in-out;
 }
+.Logo.No1 {
+    fill: #fafafa;
+}
 
 .Logo.No2 {
     opacity: 0;
-    fill: #FFFFFF;
+    fill: none;
+    stroke: #555;
+    stroke-width: 1.5;
 }
 
 .Logo.Ready {

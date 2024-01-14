@@ -8,13 +8,15 @@ import ScreenLock from "./controllers/ScreenLock";
 import {Fade} from "react-awesome-reveal";
 import ScrollDemon from "./controllers/ScrollDemon";
 import Journey from "./pages/Journey";
+import Creation from "./pages/Creation";
+import Interest from "./pages/Interest";
 
 const AppConfig = createContext(undefined)
 
 function App() {
 
     const [test, _test] = useState(0)
-    const [locale, _locale] = useState("zh_CN")
+    const [locale, _locale] = useState("en_US")
 
     const [isAppReady, _isAppReady] = useState(false)
     const [isAnimationCompleted, _isAnimationCompleted] = useState(false)
@@ -35,7 +37,7 @@ function App() {
 
                 <AppConfig.Provider value={{locale, _locale}}>
                     <ConfigProvider theme={{
-                        algorithm: theme.darkAlgorithm
+                        // algorithm: theme.darkAlgorithm
                     }}>
                         <ScreenLock active={!isAnimationCompleted}/>
                         <PageControl.Parent currentPage={test} onChange={console.log} steps={isAnimationCompleted}>
@@ -46,12 +48,10 @@ function App() {
                                 <Journey/>
                             </PageControl.Child>
                             <PageControl.Child pageIndex={2}>
-                                <Typography.Text>Creation造物</Typography.Text>
-                                <div>666</div>
+                                <Creation/>
                             </PageControl.Child>
                             <PageControl.Child pageIndex={3}>
-                                <Typography.Text>Interest兴趣</Typography.Text>
-                                <div>666</div>
+                                <Interest/>
                             </PageControl.Child>
                             <PageControl.Child pageIndex={4}>
                                 <Typography.Text>Connect联络</Typography.Text>

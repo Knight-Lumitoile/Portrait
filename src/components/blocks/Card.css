@@ -1,0 +1,18 @@
+.Card{
+    /*background-color: #222;*/
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 20px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all .3s ease-in-out;
+}
+.Card:hover{
+    transform: scale(1.02);
+}
+.Card h3{
+    margin-top: 10px;
+}
+.ant-typography{
+    white-space: pre-line;
+}

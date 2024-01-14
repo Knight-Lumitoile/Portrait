@@ -1,9 +1,8 @@
-import {Typography} from "antd";
+import {Card, Typography} from "antd";
 import Logo from "../icons/Logo";
 import "./Cover.css"
 import RevealLabel from "../labels/RevealLabel";
 import {Fade} from "react-awesome-reveal";
-
 function Cover({ready}) {
     return (
         <div className={`Cover ${ready ? "Ready" : ""}`}>
