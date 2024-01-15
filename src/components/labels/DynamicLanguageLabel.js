@@ -12,6 +12,23 @@ function DynamicLanguageLabel({content, c}) {
     )
 }
 
+function DynamicLanguageLabelSpan({content, c}) {
+
+    const {locale} = useContext(AppConfig)
+
+    return (
+        <>
+            {
+                ((c ?? content ?? {})[locale] ?? "").split('').map((v) => <div>{v}</div>)
+            }
+        </>
+    )
+}
+
 const DLL = DynamicLanguageLabel
+const DLLS = DynamicLanguageLabelSpan
 
 export default DLL
+export {
+    DLLS
+}

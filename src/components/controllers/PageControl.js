@@ -1,12 +1,11 @@
 import "./PageControl.css"
-import { Children, cloneElement, forwardRef, useEffect, useRef, useState } from 'react';
-import { Steps } from "antd";
-import __ from "../../config/locale/config.json"
+import {Children, cloneElement, forwardRef, useEffect, useRef, useState} from 'react';
+import {Steps} from "antd";
 import DLL from "../labels/DynamicLanguageLabel";
-import { Fade } from "react-awesome-reveal";
+import {Fade} from "react-awesome-reveal";
 import ScrollArea from "./ScrollArea";
 
-function Pages({ children, currentPage = 0, onChange, steps }) {
+function Pages({children, currentPage = 0, onChange, steps, showSteps}) {
 
     const child = useRef([]);
     const self = useRef(undefined)
@@ -16,7 +15,7 @@ function Pages({ children, currentPage = 0, onChange, steps }) {
 
     const scrollTo = (pageIndex) => {
         if (pageIndex !== undefined) {
-            child.current[pageIndex].scrollIntoView({ behavior: 'smooth' })
+            child.current[pageIndex].scrollIntoView({behavior: 'smooth'})
         }
     }
 
@@ -61,13 +60,13 @@ function Pages({ children, currentPage = 0, onChange, steps }) {
             </div>
             <div className={"Stepper"}>
                 {
-                    steps ?
+                    showSteps ?
                         <Fade delay={3300} triggerOnce>
                             <Steps
                                 current={step}
                                 onChange={scrollTo}
                                 type={"inline"}
-                                items={__.label.pages.map((v, i) => ({ title: <DLL c={v} />, status: i === step ? "process" : "wait" }))}
+                                items={steps.map((v, i) => ({title: <DLL c={v.title}/>, status: i === step ? "process" : "wait"}))}
                             />
                         </Fade>
                         :
@@ -79,15 +78,15 @@ function Pages({ children, currentPage = 0, onChange, steps }) {
     );
 }
 
-const Page = forwardRef(({ children, ...props }, ref) => {
-    return (
-        <div className={"Page"} ref={ref} {...props}>
-            {children}
-        </div>
-    )
-}
+const Page = forwardRef(({children, ...props}, ref) => {
+        return (
+            <div className={"Page"} ref={ref} {...props}>
+                {children}
+            </div>
+        )
+    }
 );
 
-const PageControl = { Parent: Pages, Child: Page }
+const PageControl = {Parent: Pages, Child: Page}
 
 export default PageControl

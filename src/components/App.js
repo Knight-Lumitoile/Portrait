@@ -1,15 +1,15 @@
 import './App.css';
 import PageControl from "./controllers/PageControl";
 import {createContext, useState} from "react";
-import {ConfigProvider, theme, Typography} from "antd";
+import {ConfigProvider, Typography} from "antd";
 import LocaleControl from "./controllers/LocaleControl";
 import Cover from "./pages/Cover";
 import ScreenLock from "./controllers/ScreenLock";
 import {Fade} from "react-awesome-reveal";
 import ScrollDemon from "./controllers/ScrollDemon";
-import Journey from "./pages/Journey";
-import Creation from "./pages/Creation";
-import Interest from "./pages/Interest";
+import __ from "../config/locale/config.json"
+import {PageType} from "../config/enum";
+import Wiki from "./pages/Wiki";
 
 const AppConfig = createContext(undefined)
 
@@ -28,6 +28,20 @@ function App() {
         }, 2000)
     }
 
+    const renderPage = (page) => {
+        switch (page.type) {
+            case PageType.Cover:
+                return <Cover ready={isAppReady}/>;
+            case PageType.Wiki:
+                return <Wiki pageId={page.key}/>;
+            case PageType.Footer:
+                return <Typography.Text>Connect联络</Typography.Text>;
+            default:
+                return null;
+        }
+    }
+
+
     return (
         <>
             <div className="App">
@@ -36,36 +50,28 @@ function App() {
 
 
                 <AppConfig.Provider value={{locale, _locale}}>
-                    <ConfigProvider theme={{
-                        // algorithm: theme.darkAlgorithm
-                    }}>
+                    <ConfigProvider>
                         <ScreenLock active={!isAnimationCompleted}/>
-                        <PageControl.Parent currentPage={test} onChange={console.log} steps={isAnimationCompleted}>
-                            <PageControl.Child>
-                                <Cover ready={isAppReady}/>
-                            </PageControl.Child>
-                            <PageControl.Child pageIndex={1}>
-                                <Journey/>
-                            </PageControl.Child>
-                            <PageControl.Child pageIndex={2}>
-                                <Creation/>
-                            </PageControl.Child>
-                            <PageControl.Child pageIndex={3}>
-                                <Interest/>
-                            </PageControl.Child>
-                            <PageControl.Child pageIndex={4}>
-                                <Typography.Text>Connect联络</Typography.Text>
-                                <div>666</div>
-                            </PageControl.Child>
+                        <PageControl.Parent
+                            currentPage={test}
+                            onChange={console.log}
+                            showSteps={isAnimationCompleted}
+                            steps={__.pages}
+                        >
+                            {
+                                __.pages.map((page) =>
+                                    <PageControl.Child>
+                                        {renderPage(page)}
+                                    </PageControl.Child>
+                                )
+                            }
                         </PageControl.Parent>
                         {
                             isAnimationCompleted ?
                                 <Fade delay={3300} triggerOnce>
                                     <LocaleControl/>
                                     <ScrollDemon/>
-                                </Fade>
-                                :
-                                <></>
+                                </Fade> : <></>
                         }
                     </ConfigProvider>
                 </AppConfig.Provider>

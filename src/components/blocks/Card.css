@@ -6,6 +6,7 @@
     margin: 20px 0;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     transition: all .3s ease-in-out;
+    overflow: hidden;
 }
 .Card:hover{
     transform: scale(1.02);

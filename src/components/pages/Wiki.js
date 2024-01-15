@@ -1,16 +1,14 @@
-import {Typography} from "antd";
-import {Fade} from "react-awesome-reveal";
-import "./Journey.css"
+import "./Wiki.css"
 import Card from "../blocks/Card";
 import __ from "../../config/locale/config.json"
-import Title from "../blocks/Title";
+import Title from "../labels/Title";
 
-function Journey() {
+function Wiki({pageId}) {
     return (
-        <div className={"Journey"}>
-            <Title text={__.label.pages[1]}/>
+        <div className={"Wiki"}>
+            <Title text={__.pages.find(v => v.key === pageId).title}/>
             {
-                __.body.journey.map(v => <Card
+                __.content[pageId].map(v => <Card
                     title={v.title}
                     timestamp={v.timestamp}
                     subtitle={v.subtitle}
@@ -21,4 +19,4 @@ function Journey() {
     )
 }
 
-export default Journey
+export default Wiki
