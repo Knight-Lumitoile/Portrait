@@ -1,0 +1,33 @@
+.Footer {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    /*box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 24px 6px;*/
+    display: flex;
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+
+.Footer > div {
+    text-align: center;
+    max-width: 80vw;
+}
+
+.Footer .ContactName {
+    font-size: 1.1em;
+}
+
+.Footer .ContactTitle {
+    opacity: 0.5;
+}
+
+.Footer .ContactAddress {
+}
+
+.Footer .ContactEmail {
+}
+
+.Footer .ContactLink {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}

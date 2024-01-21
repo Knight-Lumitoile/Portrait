@@ -5,12 +5,14 @@
     align-items: center;
     justify-content: center;
     background-color: #333;
-    transition: background-color .3s 2s ease-in-out;
+    transition: background-color 0.3s 2s ease-in-out;
     position: relative;
+    /*border-bottom: 1px solid #666;*/
+    /*box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 24px 6px;*/
 }
 
 .Cover.Ready {
-    background-color: #fafafa;
+    background-color: #f3f3f3;
 }
 
 .Logo {
@@ -19,8 +21,10 @@
     left: calc(50vw - 100px);
     top: calc(50vh - 130px);
     position: absolute;
-    transition: opacity .3s 2s ease-in-out, transform .6s 2s ease-in-out, top .6s 2s ease-in-out;
+    transition: opacity 0.3s 2s ease-in-out, transform 0.6s 2s ease-in-out,
+    top 0.6s 2s ease-in-out;
 }
+
 .Logo.No1 {
     fill: #fafafa;
 }
@@ -33,50 +37,50 @@
 }
 
 .Logo.Ready {
-    transform: scale(.7);
+    transform: scale(0.7);
     top: calc(30vh - 100px);
     opacity: 1;
 }
 
-.Logo.No1>.Base {
+.Logo.No1 > .Base {
     opacity: 0;
-    transition: opacity .3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 
-.Logo.No1>.Stars {
+.Logo.No1 > .Stars {
     opacity: 0;
-    transition: opacity .3s .2s ease-in-out;
+    transition: opacity 0.3s 0.2s ease-in-out;
 }
 
-.Logo.No1>.Knight {
+.Logo.No1 > .Knight {
     opacity: 0;
-    transition: opacity .3s .4s ease-in-out;
+    transition: opacity 0.3s 0.4s ease-in-out;
 }
 
-.Logo.No1>.Furina {
+.Logo.No1 > .Furina {
     transform: translateY(100%) scale(0);
     opacity: 0;
-    transition: transform .3s 1s ease-in-out, opacity .3s .8s ease-in-out;
+    transition: transform 0.3s 1s ease-in-out, opacity 0.3s 0.8s ease-in-out;
 }
 
-.Logo.No1.Ready>.Furina {
+.Logo.No1.Ready > .Furina {
     transform: translateY(0%) scale(1);
     opacity: 1;
 }
 
-.Logo.No1.Ready>.Base {
+.Logo.No1.Ready > .Base {
     opacity: 1;
 }
 
-.Logo.No1.Ready>.Stars {
+.Logo.No1.Ready > .Stars {
     opacity: 1;
 }
 
-.Logo.No1.Ready>.Knight {
+.Logo.No1.Ready > .Knight {
     opacity: 1;
 }
 
-.Prologue{
+.Prologue {
     text-align: center;
     margin-top: 26vh;
     max-width: 80vw;

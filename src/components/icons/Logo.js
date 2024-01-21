@@ -1,6 +1,10 @@
 function Logo({className}) {
     return (
-        <svg className={`Logo ${className ?? ""}`} xmlns="http://www.w3.org/2000/svg" viewBox="-82 -82 164 164">
+        <svg
+            className={`Logo ${className ?? ""}`}
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="-82 -82 164 164"
+        >
             <g className={"Base"}>
                 <path d="M 80 0 A 4 4 90 0 0 -80 0 A 4 4 90 0 0 80 0 M 74 0 C 74.032 20.442 65.164 43.479 44.636 58.994 C 15.401 50.624 -13.808 46.602 -49.185 55.318 C -58.41 46.986 -73.815 28.909 -74 0 A 1 1 0 0 1 74 0 "/>
             </g>
@@ -18,8 +22,7 @@ function Logo({className}) {
                 <path d="M 47 17 C 48 20 50 22 53 23 L 58 20 L 55 19 L 56 14 L 51 15 L 50 12 Z"/>
             </g>
         </svg>
-    )
+    );
 }
 
-
-export default Logo
+export default Logo;

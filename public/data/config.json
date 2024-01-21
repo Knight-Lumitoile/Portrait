@@ -1,0 +1,1012 @@
+{
+    "locale": [
+        {
+            "key": "en_US",
+            "label": "English"
+        },
+        {
+            "key": "zh_CN",
+            "label": "中文"
+        },
+        {
+            "key": "fr_FR",
+            "label": "Français"
+        },
+        {
+            "key": "it_IT",
+            "label": "Italiano"
+        },
+        {
+            "key": "ja_JP",
+            "label": "日本語"
+        },
+        {
+            "key": "pt_PT",
+            "label": "Português"
+        },
+        {
+            "key": "ru_RU",
+            "label": "Русский"
+        },
+        {
+            "key": "ko_KR",
+            "label": "한국어"
+        },
+        {
+            "key": "es_ES",
+            "label": "Español"
+        },
+        {
+            "key": "ar_EG",
+            "label": "العربية"
+        },
+        {
+            "key": "hi_IN",
+            "label": "हिन्दी"
+        }
+    ],
+    "pages": [
+        {
+            "key": "portrait",
+            "type": "cover",
+            "title": {
+                "en_US": "Portrait",
+                "zh_CN": "肖像",
+                "fr_FR": "Portrait",
+                "it_IT": "Ritratto",
+                "ja_JP": "肖像",
+                "pt_PT": "Retrato",
+                "ru_RU": "Портрет",
+                "ko_KR": "초상화",
+                "es_ES": "Retrato",
+                "ar_EG": "صورة فوتوغرافية",
+                "hi_IN": "पोर्ट्रेट"
+            }
+        },
+        {
+            "key": "journey",
+            "type": "wiki",
+            "title": {
+                "en_US": "Journey",
+                "zh_CN": "旅程",
+                "fr_FR": "Voyage",
+                "it_IT": "Viaggio",
+                "ja_JP": "旅",
+                "pt_PT": "Jornada",
+                "ru_RU": "Путешествие",
+                "ko_KR": "여행",
+                "es_ES": "Viaje",
+                "ar_EG": "رحلة",
+                "hi_IN": "यात्रा"
+            }
+        },
+        {
+            "key": "creation",
+            "type": "wiki",
+            "title": {
+                "en_US": "Creation",
+                "zh_CN": "造物",
+                "fr_FR": "Création",
+                "it_IT": "Creazione",
+                "ja_JP": "創造",
+                "pt_PT": "Criação",
+                "ru_RU": "Создание",
+                "ko_KR": "창조",
+                "es_ES": "Creación",
+                "ar_EG": "خلق",
+                "hi_IN": "सृष्टि"
+            }
+        },
+        {
+            "key": "interest",
+            "type": "wiki",
+            "title": {
+                "en_US": "Interest",
+                "zh_CN": "兴趣",
+                "fr_FR": "Intérêt",
+                "it_IT": "Interesse",
+                "ja_JP": "興味",
+                "pt_PT": "Interesse",
+                "ru_RU": "Интерес",
+                "ko_KR": "흥미",
+                "es_ES": "Interés",
+                "ar_EG": "اهتمام",
+                "hi_IN": "दिलचस्पी"
+            }
+        },
+        {
+            "key": "connect",
+            "type": "footer",
+            "title": {
+                "en_US": "Connect",
+                "zh_CN": "联络",
+                "fr_FR": "Connecter",
+                "it_IT": "Collegare",
+                "ja_JP": "接続",
+                "pt_PT": "Conectar",
+                "ru_RU": "Связаться",
+                "ko_KR": "연결",
+                "es_ES": "Conectar",
+                "ar_EG": "الاتصال",
+                "hi_IN": "कनेक्ट करें"
+            }
+        }
+    ],
+    "content": {
+        "portrait": [
+            {
+                "content": {
+                    "zh_CN": "你好！我是洪琛!",
+                    "en_US": "Hello! I am Hongchen!",
+                    "fr_FR": "Bonjour ! Je suis Hongchen!",
+                    "it_IT": "Ciao! Sono Hongchen!",
+                    "ja_JP": "こんにちは！私は洪琛です！",
+                    "pt_PT": "Olá! Eu sou Hongchen!",
+                    "ru_RU": "Привет! Я Хонгчен!",
+                    "ko_KR": "안녕하세요! 나는 홍첸입니다!",
+                    "es_ES": "¡Hola! Soy Hongchen.",
+                    "ar_EG": "مرحبًا! أنا هونغتشن!",
+                    "hi_IN": "नमस्ते! मैं होंगचेन हूं!"
+                },
+                "hidden": {
+                    "zh_CN": "单身，未婚。",
+                    "en_US": "Single, unmarried.",
+                    "fr_FR": "Célibataire, non marié.",
+                    "it_IT": "Single, non sposato.",
+                    "ja_JP": "独身、未婚。",
+                    "pt_PT": "Solteiro, não casado.",
+                    "ru_RU": "Один, не женат.",
+                    "ko_KR": "싱글, 결혼하지 않음.",
+                    "es_ES": "Soltero, no casado.",
+                    "ar_EG": "أعزب، غير متزوج.",
+                    "hi_IN": "सिंगल, अविवाहित."
+                }
+            },
+            {
+                "content": {
+                    "zh_CN": "一个乐观、天真、内向、传统的大男孩。",
+                    "en_US": "An optimistic, naive, introverted, and traditional big boy.",
+                    "fr_FR": "Un garçon grand, optimiste, naïf, introverti et traditionnel.",
+                    "it_IT": "Un ragazzo ottimista, ingenuo, introverso e tradizionale.",
+                    "ja_JP": "楽観的で素朴で内向的で伝統的な大きな男の子。",
+                    "pt_PT": "Um garoto otimista, ingênuo, introvertido e tradicional.",
+                    "ru_RU": "Оптимистичный, наивный, интровертный и традиционный большой мальчик.",
+                    "ko_KR": "낙천적이고 순진하며 내성적이고 전통적인 큰 소년.",
+                    "es_ES": "Un chico grande, optimista, ingenuo, introvertido y tradicional.",
+                    "ar_EG": "فتى كبير، متفائل، ساذج، خجول وتقليدي.",
+                    "hi_IN": "एक आशावादी, साधू, आंतरवत्, और पारंपरिक बड़ा लड़का।"
+                },
+                "hidden": {
+                    "zh_CN": "也有些自私、懒惰。",
+                    "en_US": "Also a bit selfish and lazy.",
+                    "fr_FR": "Aussi un peu égoïste et paresseux.",
+                    "it_IT": "Anche un po' egoista e pigro.",
+                    "ja_JP": "少し利己的で怠惰でもあります。",
+                    "pt_PT": "Também um pouco egoísta e preguiçoso.",
+                    "ru_RU": "Также немного эгоистичный и ленивый.",
+                    "ko_KR": "조금이나마 이기적이고 게으릅니다.",
+                    "es_ES": "También un poco egoísta y perezoso.",
+                    "ar_EG": "أيضًا أناني وكسول قليلاً.",
+                    "hi_IN": "थोड़ा सा अधिक स्वार्थी और आलसी।"
+                }
+            },
+            {
+                "content": {
+                    "zh_CN": "简介的话，我想不出该写些什么，所以就不写了。\n想要了解我更多的话，向下滚动就好啦！",
+                    "en_US": "I couldn't think of what to write for an introduction, so I'll leave it at that.\nIf you want to know more about me, just scroll down!",
+                    "fr_FR": "En ce qui concerne l'introduction, je ne sais pas quoi écrire, alors je vais laisser ça comme ça.\nSi vous voulez en savoir plus sur moi, faites simplement défiler vers le bas!",
+                    "it_IT": "Per quanto riguarda l'introduzione, non ho idea di cosa scrivere, quindi lo lascio così.\nSe vuoi saperne di più su di me, scorri verso il basso!",
+                    "ja_JP": "自己紹介に何を書くか考えられなかったので、これで終わりにします。\n私についてもっと知りたい場合は、下にスクロールしてください！",
+                    "pt_PT": "Não consegui pensar no que escrever para uma introdução, então vou deixar assim.\nSe você quiser saber mais sobre mim, é só rolar para baixo!",
+                    "ru_RU": "Я не мог придумать, что написать в предисловии, так что я оставлю это так.\nЕсли вы хотите узнать больше обо мне, просто прокрутите вниз!",
+                    "ko_KR": "소개글에 뭐를 쓸지 생각이 나지 않아 그냥 여기까지만 남깁니다.\n더 자세히 알고 싶다면 아래로 스크롤하세요!",
+                    "es_ES": "No se me ocurre qué escribir para una introducción, así que lo dejaré así.\nSi quieres saber más sobre mí, ¡simplemente desplázate hacia abajo!",
+                    "ar_EG": "لم أتمكن من التفكير في ماذا أكتب كمقدمة ، لذا سأتركها على ذلك.\nإذا كنت ترغب في معرفة المزيد عني ، فقط انتقل إلى الأسفل!",
+                    "hi_IN": "मैंने एक परिचय के लिए क्या लिखूं सोचा नहीं जा सकता हूँ, इसलिए मैं इसे इसी में छोड़ दूंगा।\nअगर आप मुझे और जानना चाहते हैं, तो बस नीचे स्क्रॉल करें!"
+                },
+                "hidden": {
+                    "zh_CN": "其实我就是懒得写~",
+                    "en_US": "Actually, I'm just too lazy to write~",
+                    "fr_FR": "En fait, je suis juste trop paresseux pour écrire~",
+                    "it_IT": "In realtà, sono solo troppo pigro per scrivere~",
+                    "ja_JP": "実際、書くのが面倒くさいだけです〜",
+                    "pt_PT": "Na verdade, eu sou apenas preguiçoso demais para escrever~",
+                    "ru_RU": "На самом деле, я просто слишком ленив, чтобы писать~",
+                    "ko_KR": "사실 쓰기가 너무 귀찮아서요~",
+                    "es_ES": "En realidad, simplemente soy demasiado perezoso para escribir~",
+                    "ar_EG": "في الواقع، أنا مجرد كسول جدًا للكتابة~",
+                    "hi_IN": "वास्तव में, मैं लिखने के लिए बस बहुत आलसी हूं~"
+                }
+            }
+        ],
+        "journey": [
+            {
+                "title": {
+                    "en_US": "StayinFront",
+                    "zh_CN": "StayinFront",
+                    "fr_FR": "StayinFront",
+                    "it_IT": "StayinFront",
+                    "ja_JP": "StayinFront",
+                    "pt_PT": "StayinFront",
+                    "ru_RU": "StayinFront",
+                    "ko_KR": "StayinFront",
+                    "es_ES": "StayinFront",
+                    "ar_EG": "StayinFront",
+                    "hi_IN": "StayinFront"
+                },
+                "timestamp": {
+                    "en_US": "2022 - Now",
+                    "zh_CN": "2022 - 现在",
+                    "fr_FR": "2022 - Maintenant",
+                    "it_IT": "2022 - Adesso",
+                    "ja_JP": "2022 - 現在",
+                    "pt_PT": "2022 - Agora",
+                    "ru_RU": "2022 - Сейчас",
+                    "ko_KR": "2022 - 현재",
+                    "es_ES": "2022 - Ahora",
+                    "ar_EG": "2022 - الآن",
+                    "hi_IN": "2022 - अब"
+                },
+                "subtitle": {
+                    "en_US": "PSG Developer",
+                    "zh_CN": "PSG 开发人员",
+                    "fr_FR": "Développeur PSG",
+                    "it_IT": "Sviluppatore PSG",
+                    "ja_JP": "PSG 開発者",
+                    "pt_PT": "Desenvolvedor PSG",
+                    "ru_RU": "Разработчик PSG",
+                    "ko_KR": "PSG 개발자",
+                    "es_ES": "Desarrollador PSG",
+                    "ar_EG": "مطور PSG",
+                    "hi_IN": "PSG डेवेलपर"
+                },
+                "content": [
+                    {
+                        "text": {
+                            "en_US": "As a PSG Developer at StayinFront, I am responsible for designing, developing, and maintaining customized CRM systems for each customer. My role involves building and supporting systems based on StayinFront's core CRM engine. I also work on integrating our core engine with third-party software or APIs to meet customer needs. Consequently, I've had the opportunity to engage with various technologies and programming languages, including VBScript, VB.Net, C#.Net, MS SQL, SSIS, ReactJS, OfficeJS, etc.",
+                            "zh_CN": "作为StayinFront的PSG开发人员，我负责为每个客户设计、开发和维护定制的CRM系统。我的工作包括构建和支持基于StayinFront核心CRM引擎的系统。我还需要将我们的核心引擎与第三方软件或API集成，以满足客户的需求。因此，我有机会参与各种技术和编程语言的开发，包括VBScript、VB.Net、C#.Net、MS SQL、SSIS、ReactJS、OfficeJS等。",
+                            "fr_FR": "En tant que développeur PSG chez StayinFront, je suis responsable de la conception, du développement et de la maintenance de systèmes CRM personnalisés pour chaque client. Mon rôle consiste à construire et soutenir des systèmes basés sur le moteur CRM central de StayinFront. Je travaille également sur l'intégration de notre moteur central avec des logiciels tiers ou des APIs pour répondre aux besoins des clients. Par conséquent, j'ai eu l'opportunité de travailler avec différentes technologies et langages de programmation, notamment VBScript, VB.Net, C#.Net, MS SQL, SSIS, ReactJS, OfficeJS, etc.",
+                            "it_IT": "Come sviluppatore PSG presso StayinFront, sono responsabile della progettazione, dello sviluppo e della manutenzione di sistemi CRM personalizzati per ciascun cliente. Il mio ruolo prevede la costruzione e il supporto di sistemi basati sul motore CRM centrale di StayinFront. Lavoro anche sull'integrazione del nostro motore centrale con software di terze parti o API per soddisfare le esigenze dei clienti. Di conseguenza, ho avuto l'opportunità di lavorare con diverse tecnologie e linguaggi di programmazione, tra cui VBScript, VB.Net, C#.Net, MS SQL, SSIS, ReactJS, OfficeJS, ecc.",
+                            "ja_JP": "StayinFrontのPSG開発者として、私の役割は各顧客向けにカスタマイズされたCRMシステムの設計、開発、および維持を担当することです。StayinFrontの中核となるCRMエンジンに基づいたシステムの構築とサポートも含まれます。また、カスタマーのニーズに対応するために、中核エンジンをサードパーティのソフトウェアやAPIと統合する作業も行います。その結果、VBScript、VB.Net、C#.Net、MS SQL、SSIS、ReactJS、OfficeJSなどのさまざまな技術やプログラミング言語を使用する機会がありました。",
+                            "pt_PT": "Como Desenvolvedor PSG na StayinFront, sou responsável por projetar, desenvolver e manter sistemas CRM personalizados para cada cliente. Meu papel envolve a construção e suporte a sistemas baseados no núcleo do motor CRM da StayinFront. Também trabalho na integração do nosso motor principal com software de terceiros ou APIs para atender às necessidades dos clientes. Consequentemente, tive a oportunidade de me envolver com diversas tecnologias e linguagens de programação, incluindo VBScript, VB.Net, C#.Net, MS SQL, SSIS, ReactJS, OfficeJS, etc.",
+                            "ru_RU": "Как разработчик PSG в StayinFront, я ответственен за проектирование, разработку и поддержку настраиваемых CRM-систем для каждого клиента. Моя роль включает в себя создание и поддержку систем на основе основного движка CRM от StayinFront. Я также занимаюсь интеграцией нашего основного движка с программным обеспечением сторонних разработчиков или API для удовлетворения потребностей клиентов. В результате у меня была возможность работать с различными технологиями и языками программирования, включая VBScript, VB.Net, C#.Net, MS SQL, SSIS, ReactJS, OfficeJS и т. д.",
+                            "ko_KR": "StayinFront의 PSG 개발자로서, 나는 각 고객을 위해 맞춤형 CRM 시스템을 설계, 개발 및 유지하는 책임이 있습니다. 나의 역할은 StayinFront의 핵심 CRM 엔진을 기반으로 시스템을 구축하고 지원하는 것을 포함합니다. 또한 고객의 요구를 충족시키기 위해 핵심 엔진을 타사 소프트웨어나 API와 통합하는 작업도 진행하고 있습니다. 결과적으로 VBScript, VB.Net, C#.Net, MS SQL, SSIS, ReactJS, OfficeJS 등 다양한 기술과 프로그래밍 언어를 다룰 수 있는 기회를 가졌습니다.",
+                            "es_ES": "Como Desarrollador PSG en StayinFront, soy responsable de diseñar, desarrollar y mantener sistemas CRM personalizados para cada cliente. Mi rol implica construir y dar soporte a sistemas basados en el motor central CRM de StayinFront. También trabajo en la integración de nuestro motor central con software de terceros o APIs para satisfacer las necesidades de los clientes. Como resultado, he tenido la oportunidad de trabajar con diversas tecnologías y lenguajes de programación, incluyendo VBScript, VB.Net, C#.Net, MS SQL, SSIS, ReactJS, OfficeJS, etc.",
+                            "ar_EG": "كمطور PSG في StayinFront، أنا مسؤول عن تصميم وتطوير وصيانة أنظمة CRM مخصصة لكل عميل. يشمل دوري بناء ودعم الأنظمة استنادًا إلى نواة محرك StayinFront الأساسية لإدارة علاقات العملاء. أعمل أيضًا على دمج نواة محركنا مع برامج أو واجهات برمجة تطبيقات من جهات خارجية لتلبية احتياجات العملاء. ونتيجة لذلك، كان لدي الفرصة للتفاعل مع تقنيات ولغات برمجة متنوعة، بما في ذلك VBScript وVB.Net وC#.Net وMS SQL وSSIS وReactJS وOfficeJS، إلخ.",
+                            "hi_IN": "StayinFront के PSG डेवेलपर के रूप में, मेरी जिम्मेदारी है कि प्रत्येक ग्राहक के लिए विशेषज्ञ CRM सिस्टम का डिज़ाइन, विकसन, और बनाए रखना। मेरी भूमिका में StayinFront के मुख्य CRM इंजन पर आधारित सिस्टम बनाने और समर्थन करने का शामिल है। मैं यह भी करता हूं कि हमारी मुख्य इंजन को थर्ड-पार्टी सॉफ़्टवेयर या एपीआईसे एकटैस करें ताकि ग्राहकों की आवश्यकताओं को पूरा किया जा सके। इस परिणामस्वरूप, मुझे VBScript, VB.Net, C#.Net, MS SQL, SSIS, ReactJS, OfficeJS आदि जैसी विभिन्न तकनीकों और प्रोग्रामिंग भाषाओं के साथ संलग्न होने का अवसर मिला है।"
+                        }
+                    },
+                    {
+                        "text": {
+                            "en_US": "This marks my first venture into the IT field, and I am genuinely grateful that StayinFront has been kind enough to provide me with this opportunity.",
+                            "zh_CN": "这是我的第一份IT工作，我真诚感谢StayinFront给予我这个机会。",
+                            "fr_FR": "Cela marque ma première incursion dans le domaine de l'informatique, et je suis vraiment reconnaissant que StayinFront ait été assez aimable pour me donner cette opportunité.",
+                            "it_IT": "Questo segna la mia prima esperienza nel campo dell'IT e sono sinceramente grato che StayinFront sia stato così gentile da offrirmi questa opportunità.",
+                            "ja_JP": "これは私のIT分野への初めての冒険です。StayinFrontがこの機会を提供してくれたことに心から感謝しています。",
+                            "pt_PT": "Isso marca minha primeira incursão no campo de TI, e estou sinceramente grato por StayinFront ter sido gentil o suficiente para me proporcionar essa oportunidade.",
+                            "ru_RU": "Это мое первое предприятие в области IT, и я искренне благодарен StayinFront за то, что они были достаточно добры, чтобы предоставить мне эту возможность.",
+                            "ko_KR": "이것은 나의 IT 분야로의 첫 도전이며, StayinFront가 이 기회를 제공해준 것에 진심으로 감사합니다.",
+                            "es_ES": "Esto marca mi primera incursión en el campo de la tecnología de la información, y estoy sinceramente agradecido de que StayinFront haya tenido la amabilidad de brindarme esta oportunidad.",
+                            "ar_EG": "هذا يمثل مغامرتي الأولى في مجال تكنولوجيا المعلومات، وأنا ممتن حقًا لأن StayinFront كانت لطيفة بما فيه الكفاية لتوفير لي هذه الفرصة.",
+                            "hi_IN": "यह मेरी आईटी क्षेत्र में पहली प्रवृत्ति है, और मैं यहाँ तक की StayinFront ने मुझे इस अवसर प्रदान करने के लिए कृपाशील रूप से कार्य किया है।"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": {
+                    "en_US": "FIELDS CAFE",
+                    "zh_CN": "FIELDS 咖啡馆",
+                    "fr_FR": "CAFÉ FIELDS",
+                    "it_IT": "CAFFÈ FIELDS",
+                    "ja_JP": "FIELDS カフェ",
+                    "pt_PT": "CAFÉ FIELDS",
+                    "ru_RU": "КАФЕ FIELDS",
+                    "ko_KR": "FIELDS 카페",
+                    "es_ES": "CAFÉ FIELDS",
+                    "ar_EG": "مقهى فيلدز",
+                    "hi_IN": "फील्ड्स कैफे"
+                },
+                "timestamp": {
+                    "en_US": "2019 - 2021",
+                    "zh_CN": "2019 - 2021",
+                    "fr_FR": "2019 - 2021",
+                    "it_IT": "2019 - 2021",
+                    "ja_JP": "2019 - 2021",
+                    "pt_PT": "2019 - 2021",
+                    "ru_RU": "2019 - 2021",
+                    "ko_KR": "2019 - 2021",
+                    "es_ES": "2019 - 2021",
+                    "ar_EG": "2019 - 2021",
+                    "hi_IN": "2019 - 2021"
+                },
+                "subtitle": {
+                    "en_US": "Kitchen Hand",
+                    "zh_CN": "厨房杂工",
+                    "fr_FR": "Aide en Cuisine",
+                    "it_IT": "Aiuto Cucina",
+                    "ja_JP": "キッチンハンド",
+                    "pt_PT": "Ajudante de Cozinha",
+                    "ru_RU": "Помощник на кухне",
+                    "ko_KR": "주방 보조",
+                    "es_ES": "Ayudante de Cocina",
+                    "ar_EG": "عامل مطبخ",
+                    "hi_IN": "किचन हैंड"
+                },
+                "content": [
+                    {
+                        "text": {
+                            "en_US": "Wash dishes and help preparing foods in the kitchen.",
+                            "zh_CN": "洗碗和协助厨房准备食物。",
+                            "fr_FR": "Laver la vaisselle et aider à préparer les aliments en cuisine.",
+                            "it_IT": "Lavare i piatti e aiutare nella preparazione del cibo in cucina.",
+                            "ja_JP": "食器を洗い、台所で食材の準備を手伝う。",
+                            "pt_PT": "Lavar louça e ajudar na preparação de alimentos na cozinha.",
+                            "ru_RU": "Мыть посуду и помогать в приготовлении еды на кухне.",
+                            "ko_KR": "식기를 씻고 주방에서 음식을 준비하는 데 도움을 주다.",
+                            "es_ES": "Lavar platos y ayudar en la preparación de alimentos en la cocina.",
+                            "ar_EG": "غسل الأطباق والمساعدة في تحضير الطعام في المطبخ.",
+                            "hi_IN": "बर्तन धोना और रसोई में भोजन की तैयारी में मदद करना।"
+                        }
+                    },
+                    {
+                        "text": {
+                            "en_US": "In a certain sense, this is my first job. Before this, I worked for a week at a glass factory through my parents' introduction and also worked for two days at a Chinese restaurant - eventually being dismissed due to being clumsy. However, the job at FIELDS Cafe is one I independently sought, and I have been working here for over a year.",
+                            "zh_CN": "这是我某种意义上的第一份工作。在这之前，我曾经由父母的介绍在一家玻璃厂打工了一周，也曾在一家中国餐厅上班了两天——最终因为笨手笨脚而被辞退……然而在 FIELDS 咖啡馆的工作是我自己独立找寻的，而且我在这里工作了超过一年时间。",
+                            "fr_FR": "Dans un certain sens, c'est mon premier emploi. Avant cela, j'ai travaillé une semaine dans une usine de verre grâce à l'introduction de mes parents et j'ai également travaillé deux jours dans un restaurant chinois - finissant par être renvoyé en raison de ma maladresse. Cependant, le travail au FIELDS Cafe est un emploi que j'ai cherché indépendamment, et je travaille ici depuis plus d'un an.",
+                            "it_IT": "In un certo senso, questo è il mio primo lavoro. Prima di questo, ho lavorato per una settimana in una fabbrica di vetro grazie all'introduzione dei miei genitori e ho anche lavorato per due giorni in un ristorante cinese, finendo per essere licenziato a causa della mia goffaggine. Tuttavia, il lavoro al FIELDS Cafe è quello che ho cercato autonomamente, e lavoro qui da oltre un anno.",
+                            "ja_JP": "ある意味でこれは私の最初の仕事です。これより前に、親の紹介でガラス工場で1週間働いたことがあり、また、中国料理店で2日間働いたこともありましたが、最終的には不器用なために解雇されました。しかし、FIELDS Cafeでの仕事は私が独自に探し求めたものであり、ここで1年以上働いています。",
+                            "pt_PT": "Em certo sentido, este é o meu primeiro emprego. Antes disso, trabalhei por uma semana em uma fábrica de vidro através da indicação dos meus pais e também trabalhei por dois dias em um restaurante chinês - sendo eventualmente demitido por ser desajeitado. No entanto, o trabalho no FIELDS Cafe é um que busquei de forma independente, e tenho trabalhado aqui por mais de um ano.",
+                            "ru_RU": "В определенном смысле, это моя первая работа. До этого я работал неделю на стекольном заводе по рекомендации своих родителей, также отработал два дня в китайском ресторане, в конечном итоге был уволен из-за неуклюжести. Однако работа в FIELDS Cafe - это то, что я самостоятельно нашел, и я работаю здесь более года.",
+                            "ko_KR": "어떤 의미에서는 이것이 나의 첫 직장입니다. 이전에는 부모님 소개로 유리 공장에서 일주일 일한 적이 있었고 중국 음식점에서도 두 날 동안 일했으나 어색함으로 인해 해고되었습니다. 그러나 FIELDS Cafe에서의 일은 나름 독자적으로 찾은 것이며, 여기에서 1년 이상 일하고 있습니다.",
+                            "es_ES": "En cierto sentido, este es mi primer trabajo. Antes de esto, trabajé una semana en una fábrica de vidrio gracias a la recomendación de mis padres y también trabajé dos días en un restaurante chino, siendo finalmente despedido debido a mi torpeza. Sin embargo, el trabajo en FIELDS Cafe es uno que busqué de manera independiente, y he estado trabajando aquí durante más de un año.",
+                            "ar_EG": "من ناحية معينة، هذه هي وظيفتي الأولى. قبل ذلك، عملت لمدة أسبوع في مصنع زجاج بفضل توصية والدي، وعملت أيضًا لمدة يومين في مطعم صيني - وأخيرًا تمت إقالتي بسبب الحركات الغير متقنة. ومع ذلك، الوظيفة في مقهى FIELDS هي إحدى الوظائف التي بحثت عنها بشكل مستقل، ولقد عملت هنا لأكثر من عام.",
+                            "hi_IN": "किसी तरह से, यह मेरी पहली नौकरी है। इससे पहले, मैंने अपने माता-पिता के परिचय के माध्यम से एक हफ्ते के लिए एक कांच कारख़ाने में काम किया था और यही नहीं, मैंने एक चीनी रेस्तरां में भी दो दिन काम किया - अंत में कंजूसी के कारण निकाल दिया गया। हालांकि, FIELDS कैफे में की गई नौकरी वह है जिसकी मैंने स्वतंत्र रूप से खोज की थी, और मैं यहाँ एक से ज़्यादा वर्षों से काम कर रहा हूँ।"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": {
+                    "en_US": "University of Auckland",
+                    "zh_CN": "奥克兰大学",
+                    "fr_FR": "Université d'Auckland",
+                    "it_IT": "Università di Auckland",
+                    "ja_JP": "オークランド大学",
+                    "pt_PT": "Universidade de Auckland",
+                    "ru_RU": "Университет Окленда",
+                    "ko_KR": "오클랜드 대학교",
+                    "es_ES": "Universidad de Auckland",
+                    "ar_EG": "جامعة أوكلاند",
+                    "hi_IN": "ऑकलैंड विश्वविद्यालय"
+                },
+                "timestamp": {
+                    "en_US": "2019 - 2021",
+                    "zh_CN": "2019 - 2021",
+                    "fr_FR": "2019 - 2021",
+                    "it_IT": "2019 - 2021",
+                    "ja_JP": "2019 - 2021",
+                    "pt_PT": "2019 - 2021",
+                    "ru_RU": "2019 - 2021",
+                    "ko_KR": "2019 - 2021",
+                    "es_ES": "2019 - 2021",
+                    "ar_EG": "2019 - 2021",
+                    "hi_IN": "2019 - 2021"
+                },
+                "subtitle": {
+                    "en_US": "Bachelor of Computer Science",
+                    "zh_CN": "计算机科学学士",
+                    "fr_FR": "Licence en informatique",
+                    "it_IT": "Laurea in Informatica",
+                    "ja_JP": "コンピュータサイエンス学士",
+                    "pt_PT": "Bacharelado em Ciência da Computação",
+                    "ru_RU": "Бакалавр компьютерных наук",
+                    "ko_KR": "컴퓨터 과학 학사",
+                    "es_ES": "Licenciatura en Ciencias de la Computación",
+                    "ar_EG": "بكالوريوس علوم الحاسوب",
+                    "hi_IN": "कंप्यूटर साइंस की बैचलर"
+                },
+                "content": [
+                    {
+                        "text": {
+                            "en_US": "GPA 8.29/9",
+                            "zh_CN": "平均绩点 8.29/9",
+                            "fr_FR": "Moyenne de 8.29/9",
+                            "it_IT": "Media voti 8.29/9",
+                            "ja_JP": "GPA 8.29/9",
+                            "pt_PT": "Média de Notas 8.29/9",
+                            "ru_RU": "Средний балл 8.29/9",
+                            "ko_KR": "평균 학점 8.29/9",
+                            "es_ES": "Promedio de calificaciones 8.29/9",
+                            "ar_EG": "المعدل التراكمي 8.29/9",
+                            "hi_IN": "जीपीए 8.29/9"
+                        }
+                    },
+                    {
+                        "text": {
+                            "en_US": "Concrete achievements are more persuasive than fancy adjectives.",
+                            "zh_CN": "成绩比起华丽的形容词更具有说服力。",
+                            "fr_FR": "Les réalisations concrètes sont plus convaincantes que des adjectifs fantaisistes.",
+                            "it_IT": "Le realizzazioni concrete sono più persuasive degli aggettivi fantasiosi.",
+                            "ja_JP": "具体的な実績の方が華やかな形容詞よりも説得力があります。",
+                            "pt_PT": "Realizações concretas são mais persuasivas do que adjetivos extravagantes.",
+                            "ru_RU": "Конкретные достижения более убедительны, чем изысканные прилагательные.",
+                            "ko_KR": "구체적인 성취가 화려한 형용사보다 설득력이 높습니다.",
+                            "es_ES": "Los logros concretos son más persuasivos que los adjetivos llamativos.",
+                            "ar_EG": "الإنجازات الواقعية أكثر إقناعًا من الصفات الرنانة.",
+                            "hi_IN": "ठोस उपलब्धियाँ फैंसी विशेषणों से अधिक संज्ञान आकर्षक होती हैं।"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": {
+                    "en_US": "Westlake Boys High School",
+                    "zh_CN": "西湖男子中学",
+                    "fr_FR": "Lycée Westlake Boys",
+                    "it_IT": "Liceo Maschile Westlake",
+                    "ja_JP": "ウェストレイク・ボーイズ・ハイスクール",
+                    "pt_PT": "Escola Secundária Westlake Boys",
+                    "ru_RU": "Высшая школа для мальчиков Уэстлейк",
+                    "ko_KR": "웨스트레이크 보이스 고등학교",
+                    "es_ES": "Instituto Westlake Boys",
+                    "ar_EG": "مدرسة ويست ليك للبنين الثانوية",
+                    "hi_IN": "वेस्टलेक बॉयज हाई स्कूल"
+                },
+                "timestamp": {
+                    "en_US": "2016 - 2018",
+                    "zh_CN": "2016 - 2018",
+                    "fr_FR": "2016 - 2018",
+                    "it_IT": "2016 - 2018",
+                    "ja_JP": "2016 - 2018",
+                    "pt_PT": "2016 - 2018",
+                    "ru_RU": "2016 - 2018",
+                    "ko_KR": "2016 - 2018",
+                    "es_ES": "2016 - 2018",
+                    "ar_EG": "2016 - 2018",
+                    "hi_IN": "2016 - 2018"
+                },
+                "subtitle": {
+                    "en_US": "Normal Student",
+                    "zh_CN": "普通学生",
+                    "fr_FR": "Étudiant Normal",
+                    "it_IT": "Studente Normale",
+                    "ja_JP": "普通の学生",
+                    "pt_PT": "Estudante Normal",
+                    "ru_RU": "Обычный студент",
+                    "ko_KR": "평범한 학생",
+                    "es_ES": "Estudiante Normal",
+                    "ar_EG": "طالب عادي",
+                    "hi_IN": "सामान्य छात्र"
+                },
+                "content": [
+                    {
+                        "text": {
+                            "en_US": "Excellent in Calculus\nMerit in Physics and Design and Visual Communication",
+                            "zh_CN": "微积分优秀\n物理、设计与视觉传达优良",
+                            "fr_FR": "Excellent en Calcul\nMérite en Physique et en Design et Communication Visuelle",
+                            "it_IT": "Eccellente in Calcolo\nMerito in Fisica e Design e Comunicazione Visiva",
+                            "ja_JP": "微積分は優秀\n物理学とデザイン・ビジュアルコミュニケーションは優等",
+                            "pt_PT": "Excelente em Cálculo\nMérito em Física e Design e Comunicação Visual",
+                            "ru_RU": "Отлично по математике (калькулус)\nЗаслуженно в физике и дизайне и визуальной коммуникации",
+                            "ko_KR": "미적분 우수\n물리 및 디자인 및 시각 커뮤니케이션 우수",
+                            "es_ES": "Excelente en Cálculo\nMérito en Física y Diseño y Comunicación Visual",
+                            "ar_EG": "ممتاز في الحساب\nجيد في الفيزياء والتصميم والتواصل البصري",
+                            "hi_IN": "कैलकुलस में उत्कृष्ट\nभौतिकी और डिज़ाइन और दृश्य संवाद में योग्यता"
+                        }
+                    }
+                ]
+            }
+        ],
+        "creation": [
+            {
+                "title": {
+                    "en_US": "Pour la Money",
+                    "zh_CN": "Pour la Money",
+                    "fr_FR": "Pour la Money",
+                    "it_IT": "Pour la Money",
+                    "ja_JP": "Pour la Money",
+                    "pt_PT": "Pour la Money",
+                    "ru_RU": "Pour la Money",
+                    "ko_KR": "Pour la Money",
+                    "es_ES": "Pour la Money",
+                    "ar_EG": "Pour la Money",
+                    "hi_IN": "Pour la Money"
+                },
+                "timestamp": {
+                    "en_US": "2023 - 2024",
+                    "zh_CN": "2023 - 2024",
+                    "fr_FR": "2023 - 2024",
+                    "it_IT": "2023 - 2024",
+                    "ja_JP": "2023 - 2024",
+                    "pt_PT": "2023 - 2024",
+                    "ru_RU": "2023 - 2024",
+                    "ko_KR": "2023 - 2024",
+                    "es_ES": "2023 - 2024",
+                    "ar_EG": "2023 - 2024",
+                    "hi_IN": "2023 - 2024"
+                },
+                "subtitle": {
+                    "en_US": "ReactJS, Electron, ExpressJS, Sqlite",
+                    "zh_CN": "ReactJS，Electron，ExpressJS，Sqlite",
+                    "fr_FR": "ReactJS, Electron, ExpressJS, Sqlite",
+                    "it_IT": "ReactJS, Electron, ExpressJS, Sqlite",
+                    "ja_JP": "ReactJS, Electron, ExpressJS, Sqlite",
+                    "pt_PT": "ReactJS, Electron, ExpressJS, Sqlite",
+                    "ru_RU": "ReactJS, Electron, ExpressJS, Sqlite",
+                    "ko_KR": "ReactJS, Electron, ExpressJS, Sqlite",
+                    "es_ES": "ReactJS, Electron, ExpressJS, Sqlite",
+                    "ar_EG": "ReactJS, Electron, ExpressJS, Sqlite",
+                    "hi_IN": "ReactJS, Electron, ExpressJS, Sqlite"
+                },
+                "content": [
+                    {
+                        "text": {
+                            "en_US": "An accounting app that categorizes bills to provide users with a clear understanding of their expenses, while also supporting multiple currencies.",
+                            "zh_CN": "一款记账应用，可以对账单进行分类，为用户提供对他们的花费有清晰了解的同时，还支持多种货币。",
+                            "fr_FR": "Une application de comptabilité qui classe les factures pour fournir aux utilisateurs une compréhension claire de leurs dépenses, tout en prenant également en charge plusieurs devises.",
+                            "it_IT": "Un'applicazione di contabilità che categorizza le bollette per fornire agli utenti una chiara comprensione delle loro spese, supportando anche diverse valute.",
+                            "ja_JP": "請求書を分類してユーザーが自分の支出を明確に理解できるようにする会計アプリで、複数の通貨もサポートしています。",
+                            "pt_PT": "Um aplicativo de contabilidade que categoriza contas para fornecer aos usuários uma compreensão clara de seus gastos, ao mesmo tempo que oferece suporte a várias moedas.",
+                            "ru_RU": "Приложение для учета расходов, которое категоризирует счета, предоставляя пользователям ясное представление о своих расходах, а также поддерживает несколько валют.",
+                            "ko_KR": "계산서를 분류하여 사용자가 자신의 지출을 명확히 이해할 수 있도록 하는 회계 앱으로 여러 통화도 지원합니다.",
+                            "es_ES": "Una aplicación de contabilidad que clasifica facturas para proporcionar a los usuarios una comprensión clara de sus gastos, al mismo tiempo que admite varias monedas.",
+                            "ar_EG": "تطبيق محاسبة يصنف الفواتير لتوفير فهم واضح للمستخدمين حول نفقاتهم، مع دعم عدة عملات.",
+                            "hi_IN": "एक लेखा एप्लिकेशन जो बिल्स को श्रेणीबद्ध करता है ताकि उपयोगकर्ताओं को उनकी खर्चों का स्पष्ट ज्ञान हो, साथ ही कई मुद्राओं का समर्थन भी करता है।"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": {
+                    "en_US": "Turandot",
+                    "zh_CN": "图兰朵",
+                    "fr_FR": "Turandot",
+                    "it_IT": "Turandot",
+                    "ja_JP": "トゥーランドット",
+                    "pt_PT": "Turandot",
+                    "ru_RU": "Турандот",
+                    "ko_KR": "투란도트",
+                    "es_ES": "Turandot",
+                    "ar_EG": "توراندوت",
+                    "hi_IN": "तुरंडोट"
+                },
+                "timestamp": {
+                    "en_US": "2021 - 2024",
+                    "zh_CN": "2021 - 2024",
+                    "fr_FR": "2021 - 2024",
+                    "it_IT": "2021 - 2024",
+                    "ja_JP": "2021 - 2024",
+                    "pt_PT": "2021 - 2024",
+                    "ru_RU": "2021 - 2024",
+                    "ko_KR": "2021 - 2024",
+                    "es_ES": "2021 - 2024",
+                    "ar_EG": "2021 - 2024",
+                    "hi_IN": "2021 - 2024"
+                },
+                "subtitle": {
+                    "en_US": "Python",
+                    "zh_CN": "Python",
+                    "fr_FR": "Python",
+                    "it_IT": "Python",
+                    "ja_JP": "Python",
+                    "pt_PT": "Python",
+                    "ru_RU": "Python",
+                    "ko_KR": "Python",
+                    "es_ES": "Python",
+                    "ar_EG": "بايثون",
+                    "hi_IN": "पायथन"
+                },
+                "content": [
+                    {
+                        "text": {
+                            "en_US": "Turandot is a pure Python application that allows you to create and open encrypted files.",
+                            "zh_CN": "图兰朵是一个纯Python应用程序，允许您创建和打开加密文件。",
+                            "fr_FR": "Turandot est une application Python pure qui vous permet de créer et d'ouvrir des fichiers chiffrés.",
+                            "it_IT": "Turandot è un'applicazione Python pura che consente di creare e aprire file crittografati.",
+                            "ja_JP": "Turandotは純粋なPythonアプリケーションで、暗号化されたファイルを作成および開くことができます。",
+                            "pt_PT": "Turandot é um aplicativo Python puro que permite criar e abrir arquivos criptografados.",
+                            "ru_RU": "Turandot - это чистое приложение Python, которое позволяет создавать и открывать зашифрованные файлы.",
+                            "ko_KR": "Turandot은 순수한 Python 애플리케이션으로 암호화된 파일을 생성하고 열 수 있습니다.",
+                            "es_ES": "Turandot es una aplicación pura de Python que te permite crear y abrir archivos cifrados.",
+                            "ar_EG": "توراندوت هو تطبيق برمجي نقي بلغة البايثون يسمح لك بإنشاء وفتح ملفات مشفرة.",
+                            "hi_IN": "तुरंडोट एक शुद्ध पायथन एप्लिकेशन है जो आपको एनक्रिप्टेड फ़ाइलें बनाने और खोलने की अनुमति देता है।"
+                        }
+                    },
+                    {
+                        "text": {
+                            "en_US": "The encryption method employed involves XOR-ing the file content with an input password. The password can consist of any characters, not limited to just letters and numbers. The longer the password, the more robust the encryption becomes.",
+                            "zh_CN": "采用的加密方法涉及将文件内容与输入密码进行异或操作。密码可以包含任何字符，不仅限于字母和数字。密码越长，加密就越强大。",
+                            "fr_FR": "La méthode de chiffrement utilisée implique un XOR du contenu du fichier avec un mot de passe d'entrée. Le mot de passe peut contenir n'importe quel caractère, sans se limiter aux lettres et aux chiffres. Plus le mot de passe est long, plus le chiffrement est robuste.",
+                            "it_IT": "Il metodo di crittografia impiegato prevede l'operazione XOR del contenuto del file con una password di input. La password può consistere in qualsiasi carattere, non limitato solo a lettere e numeri. Più lunga è la password, più robusta diventa la crittografia.",
+                            "ja_JP": "採用されている暗号化メソッドは、ファイルの内容を入力されたパスワードでXOR演算するものです。パスワードには文字や数字に限定されず、任意の文字が含まれることができます。パスワードが長いほど、暗号化はより強力になります。",
+                            "pt_PT": "O método de criptografia utilizado envolve a operação XOR do conteúdo do arquivo com uma senha de entrada. A senha pode consistir em qualquer caractere, não se limitando apenas a letras e números. Quanto mais longa a senha, mais robusta se torna a criptografia.",
+                            "ru_RU": "Используемый метод шифрования включает в себя операцию XOR контента файла с входным паролем. Пароль может состоять из любых символов, не ограничиваясь только буквами и цифрами. Чем длиннее пароль, тем надежнее шифрование.",
+                            "ko_KR": "사용된 암호화 방법은 파일 내용을 입력 암호와 XOR 연산하는 것을 포함합니다. 암호는 문자와 숫자에만 국한되지 않고 어떤 문자든 포함될 수 있습니다. 암호가 길수록 암호화가 더 강력해집니다.",
+                            "es_ES": "El método de cifrado utilizado implica la operación XOR del contenido del archivo con una contraseña de entrada. La contraseña puede consistir en cualquier caracter, sin limitarse solo a letras y números. Cuanto más larga sea la contraseña, más robusto se vuelve el cifrado.",
+                            "ar_EG": "الطريقة المستخدمة في التشفير تتضمن إجراء عملية XOR على محتوى الملف باستخدام كلمة مرور مدخلة. يمكن أن تتألف كلمة المرور من أي أحرف، وليس فقط الأحرف والأرقام. كلما زادت طول كلمة المرور، زاد تعزيز التشفير.",
+                            "hi_IN": "प्रयुक्त गुप्तीकरण विधि में फ़ाइल सामग्री को एक इनपुट पासवर्ड के साथ XOR करने की शामिल है। पासवर्ड में केवल अक्षर और संख्याओं से ही सीमित नहीं होता है, बल्कि यह किसी भी वर्णों को शामिल कर सकता है। जितना लंबा पासवर्ड होगा, उतना ही गुप्तीकरण मजबूत होगा।"
+                        }
+                    }
+                ]
+            }
+        ],
+        "interest": [
+            {
+                "title": {
+                    "zh_CN": "吃",
+                    "en_US": "Eating",
+                    "fr_FR": "Manger",
+                    "it_IT": "Mangiare",
+                    "ja_JP": "食べる",
+                    "pt_PT": "Comer",
+                    "ru_RU": "Еда",
+                    "ko_KR": "식사",
+                    "es_ES": "Comer",
+                    "ar_EG": "الأكل",
+                    "hi_IN": "खाना"
+                },
+                "content": [
+                    {
+                        "text": {
+                            "zh_CN": "吃，无疑是人生头等大事。",
+                            "en_US": "Eating, undoubtedly, is a top priority in life.",
+                            "fr_FR": "Manger, sans aucun doute, est une priorité absolue dans la vie.",
+                            "it_IT": "Mangiare, senza dubbio, è una priorità assoluta nella vita.",
+                            "ja_JP": "食べることは、間違いなく人生の最優先事項です。",
+                            "pt_PT": "Comer, sem dúvida, é uma prioridade máxima na vida.",
+                            "ru_RU": "Питание, без сомнения, является первоочередным в жизни.",
+                            "ko_KR": "먹는 것은 의심의 여지 없이 인생의 최우선 과제입니다.",
+                            "es_ES": "Comer, sin duda, es una prioridad máxima en la vida.",
+                            "ar_EG": "الأكل، بلا شك، هو أولوية قصوى في الحياة.",
+                            "hi_IN": "खाना, बेशक, जीवन में शीर्ष प्राथमिकता है।"
+                        }
+                    },
+                    {
+                        "text": {
+                            "zh_CN": "……思考了很久，也难以描述了这个贯穿我人生始终的爱好。或许，这就是爱吧。",
+                            "en_US": "After much contemplation, it's challenging to describe this hobby that has been a constant throughout my life. Perhaps, this is what love is.",
+                            "fr_FR": "… Après beaucoup de réflexion, il est difficile de décrire ce passe-temps qui a été constant tout au long de ma vie. Peut-être que c'est cela l'amour.",
+                            "it_IT": "Dopo molte riflessioni, è difficile descrivere questo hobby che è stato costante per tutta la mia vita. Forse, questo è l'amore.",
+                            "ja_JP": "長い間考えた結果、私の人生を通して一貫しているこの趣味を説明するのは難しいです。多分、これが愛なのでしょう。",
+                            "pt_PT": "Depois de muita contemplação, é desafiador descrever esse hobby que foi constante ao longo da minha vida. Talvez, isso seja o que é o amor.",
+                            "ru_RU": "После долгих раздумий сложно описать это увлечение, которое сопровождает меня всю жизнь. Возможно, в этом и заключается любовь.",
+                            "ko_KR": "오랜 생각 끝에, 내 삶을 통틀어 지속적으로 나타난 이 취미를 설명하는 것은 어렵습니다. 아마도, 이것이 사랑일지도 모릅니다.",
+                            "es_ES": "Después de mucha contemplación, es difícil describir este pasatiempo que ha sido constante a lo largo de mi vida. Quizás, esto es lo que es el amor.",
+                            "ar_EG": "بعد الكثير من التأمل، من الصعب وصف هذا الهواية التي كانت مستمرة طوال حياتي. ربما، هذا هو ما يعرف بالحب.",
+                            "hi_IN": "… बहुत सोचे समझाए के बाद, यह सीधे मेरे जीवन में एक स्थायी रूप से रहे हुए इस शौक को वर्णित करना कठिन है। शायद, यही प्रेम है।"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": {
+                    "zh_CN": "写作",
+                    "en_US": "Writing",
+                    "fr_FR": "Écriture",
+                    "it_IT": "Scrittura",
+                    "ja_JP": "執筆",
+                    "pt_PT": "Escrita",
+                    "ru_RU": "Писательство",
+                    "ko_KR": "글쓰기",
+                    "es_ES": "Escritura",
+                    "ar_EG": "الكتابة",
+                    "hi_IN": "लेखन"
+                },
+                "content": [
+                    {
+                        "text": {
+                            "zh_CN": "初中的时候，我就有着写一部小说的梦想。然而现在，我写了无数的小说开篇，却没有任何一个能够继续写下去。很多时候，脑子里想到的情节让我自己都潸然泪下，然而拿起笔时却一个字也写不出来。",
+                            "en_US": "Since middle school, I have had the dream of writing a novel. However, now, I have started countless novel beginnings, yet none of them could be continued. Many times, the scenes that come to mind bring tears to my eyes, but when I pick up the pen, not a single word can be written.",
+                            "fr_FR": "Depuis le collège, j'ai rêvé d'écrire un roman. Cependant, maintenant, j'ai commencé d'innombrables débuts de romans, mais aucun d'entre eux n'a pu être poursuivi. Souvent, les scènes qui me viennent à l'esprit me font verser des larmes, mais lorsque je prends la plume, aucun mot ne peut être écrit.",
+                            "it_IT": "Fin dalla scuola media, ho avuto il sogno di scrivere un romanzo. Tuttavia, ora, ho iniziato innumerevoli inizi di romanzi, ma nessuno di essi poteva essere continuato. Molte volte, le scene che mi vengono in mente mi fanno venire le lacrime agli occhi, ma quando prendo la penna, non riesco a scrivere nemmeno una parola.",
+                            "ja_JP": "中学の頃から小説を書く夢を抱いていました。しかし、今、私は無数の小説の開始を始めましたが、どれも続けることができませんでした。多くの場合、頭に浮かぶシーンは私自身も涙を流させますが、ペンを取ると一言も書けません。",
+                            "pt_PT": "Desde o ensino médio, eu tinha o sonho de escrever um romance. No entanto, agora, comecei inúmeros começos de romances, mas nenhum deles pôde ser continuado. Muitas vezes, as cenas que vêm à mente me fazem chorar, mas quando pego a caneta, não consigo escrever uma única palavra.",
+                            "ru_RU": "С средней школы у меня была мечта написать роман. Однако сейчас я начал бесчисленное количество начал романов, но ни один из них не смог быть продолжен. Многие разы сцены, приходящие в голову, заставляют меня слезы, но когда я беру ручку, не удается написать ни одного слова.",
+                            "ko_KR": "중학교 때부터 소설을 쓰는 꿈을 품었습니다. 그러나 지금은 무수히 많은 소설 시작을 했지만 어느 것도 계속할 수 없었습니다. 많은 경우에 내 머릿속에 떠오르는 장면은 나 자신도 눈물을 흘리게 만들지만, 펜을 들면 한 마디도 쓸 수 없습니다.",
+                            "es_ES": "Desde la escuela secundaria, he tenido el sueño de escribir una novela. Sin embargo, ahora, he comenzado innumerables comienzos de novelas, pero ninguno de ellos pudo continuar. Muchas veces, las escenas que vienen a la mente me hacen llorar, pero cuando cojo la pluma, no puedo escribir ni una sola palabra.",
+                            "ar_EG": "منذ المدرسة الثانوية، كان لدي حلم بكتابة رواية. ومع ذلك، الآن، بدأت العديد من بدايات الروايات، ولكن لم يتمكن أي منها من الاستمرار. في كثير من الأحيان، تجلب لي المشاهد التي تتبادر إلى ذهني الدموع، ولكن عندما ألمس القلم، لا يمكن كتابة كلمة واحدة.",
+                            "hi_IN": "मध्य विद्यालय से ही मेरा एक उपन्यास लिखने का सपना था। हालांकि, अब तक, मैंने अनगिनत उपन्यास की शुरुआतें की हैं, लेकिन उनमें से कोई भी आगे बढ़ा नहीं सका। बहुत बार, मेरे मन में आने वाले दृश्य मुझे अपनी आँखों में आंसू लाने के लिए रुलाते हैं, लेकिन जब मैं कलम उठाता हूँ, एक भी शब्द नहीं लिखा जा सकता।"
+                        }
+                    },
+                    {
+                        "text": {
+                            "zh_CN": "大概我真的没有天赋吧……",
+                            "en_US": "Perhaps, I really lack the talent...",
+                            "fr_FR": "Peut-être que je manque vraiment de talent...",
+                            "it_IT": "Forse, mi manca davvero il talento...",
+                            "ja_JP": "たぶん、私は本当に才能がないのかもしれません...",
+                            "pt_PT": "Talvez, eu realmente não tenha o talento...",
+                            "ru_RU": "Возможно, у меня действительно нет таланта...",
+                            "ko_KR": "아마도, 나는 정말로 재능이 부족한 것 같아...",
+                            "es_ES": "Quizás, realmente me falte el talento...",
+                            "ar_EG": "ربما، حقًا أنا أفتقر إلى الموهبة...",
+                            "hi_IN": "शायद, मुझे सचमुच कला की कमी हो..."
+                        }
+                    }
+                ]
+            },
+            {
+                "title": {
+                    "zh_CN": "音乐",
+                    "en_US": "Music",
+                    "fr_FR": "Musique",
+                    "it_IT": "Musica",
+                    "ja_JP": "音楽",
+                    "pt_PT": "Música",
+                    "ru_RU": "Музыка",
+                    "ko_KR": "음악",
+                    "es_ES": "Música",
+                    "ar_EG": "موسيقى",
+                    "hi_IN": "संगीत"
+                },
+                "content": [
+                    {
+                        "text": {
+                            "zh_CN": "小学的时候，就开始学钢琴了。当时我也曾想过自己在舞台上演奏的场景，高中的时候选了音乐课，也有着不错的成绩。",
+                            "en_US": "I started learning the piano in elementary school. At that time, I also envisioned scenes of myself performing on stage. In high school, I chose music classes and achieved good grades.",
+                            "fr_FR": "J'ai commencé à apprendre le piano à l'école primaire. À l'époque, j'imaginais aussi des scènes de moi-même jouant sur scène. Au lycée, j'ai choisi des cours de musique et j'ai obtenu de bonnes notes.",
+                            "it_IT": "Ho iniziato a imparare il piano alle elementari. In quel periodo, immaginavo anche scene di me stesso esibirmi sul palco. Alle superiori, ho scelto corsi di musica e ho ottenuto buoni voti.",
+                            "ja_JP": "小学校の頃からピアノを学び始めました。その当時、私は自分がステージで演奏する場面を想像したこともあります。高校では音楽の授業を選び、良い成績を収めました。",
+                            "pt_PT": "Comecei a aprender piano na escola primária. Na época, também imaginava cenas de mim mesmo se apresentando no palco. No ensino médio, escolhi aulas de música e obtive boas notas.",
+                            "ru_RU": "Я начал учить игре на пианино в начальной школе. Тогда я также представлял сцены своего выступления на сцене. В старших классах я выбрал уроки музыки и получил хорошие оценки.",
+                            "ko_KR": "저는 초등학교 때 피아노를 배우기 시작했습니다. 그 당시에는 무대에서 연주하는 나 자신의 모습을 상상했습니다. 고등학교 때 음악 수업을 선택하고 좋은 성적을 거두었습니다.",
+                            "es_ES": "Comencé a aprender piano en la escuela primaria. En ese momento, también imaginaba escenas de mí mismo actuando en el escenario. En la escuela secundaria, elegí clases de música y obtuve buenas calificaciones.",
+                            "ar_EG": "بدأت في تعلم البيانو في المدرسة الابتدائية. في تلك الفترة، كنت أتصوّر أيضًا مشاهد لنفسي أثناء أدائي على المسرح. في المدرسة الثانوية، اخترت دروس الموسيقى وحققت درجات جيدة.",
+                            "hi_IN": "मैंने प्राथमिक स्कूल में ही पियानो सीखना शुरू किया था। उस समय, मैंने अपने आपको स्टेज पर प्रदर्शन करते हुए की गई दृश्यों का कल्पना की थी। उच्चतम स्कूल में, मैंने संगीत की कक्षाएं चयन कीं और अच्छे अंक प्राप्त किए।"
+                        }
+                    },
+                    {
+                        "text": {
+                            "zh_CN": "可惜，我败给了现实。爱好是不能当饭吃的，工作才行。",
+                            "en_US": "Unfortunately, I succumbed to reality. Hobbies can't put food on the table; a job is necessary.",
+                            "fr_FR": "Malheureusement, j'ai cédé à la réalité. Les hobbies ne peuvent pas mettre de la nourriture sur la table ; un travail est nécessaire.",
+                            "it_IT": "Sfortunatamente, ho ceduto alla realtà. Gli hobby non mettono il cibo sul tavolo; un lavoro è necessario.",
+                            "ja_JP": "残念ながら、私は現実に負けました。趣味だけでは食べていけません。仕事が必要です。",
+                            "pt_PT": "Infelizmente, sucumbi à realidade. Hobbies não colocam comida na mesa; um emprego é necessário.",
+                            "ru_RU": "К сожалению, я поддался реальности. Хобби не поставят еду на стол; нужна работа.",
+                            "ko_KR": "안타깝게도, 나는 현실에 지다. 취미만으로는 밥을 먹을 수 없고, 일이 필요하다.",
+                            "es_ES": "Desafortunadamente, sucumbí a la realidad. Los pasatiempos no ponen comida en la mesa; se necesita un trabajo.",
+                            "ar_EG": "للأسف، استسلمت للواقع. الهوايات لا تضع الطعام على الطاولة؛ العمل ضروري.",
+                            "hi_IN": "दुर्भाग्यवश, मैं वास्तविकता के सामने हार गया। शौक तो चावल नहीं रख सकते; नौकरी जरुरी है।"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": {
+                    "zh_CN": "绘画",
+                    "en_US": "Drawing",
+                    "fr_FR": "Dessin",
+                    "it_IT": "Disegno",
+                    "ja_JP": "絵画",
+                    "pt_PT": "Desenho",
+                    "ru_RU": "Рисование",
+                    "ko_KR": "드로잉",
+                    "es_ES": "Dibujo",
+                    "ar_EG": "رسم",
+                    "hi_IN": "ड्रॉइंग"
+                },
+                "content": [
+                    {
+                        "text": {
+                            "zh_CN": "小学的时候，我便是班级里的绘画佼佼者。初中之后，则是找了专业的补习班学习了三年素描——然而却是千篇一律的瓶子、水果。画人画成妖怪，脑海中奇妙的幻想更是一点一滴也画不出来。",
+                            "en_US": "In elementary school, I was the outstanding artist in the class. After junior high school, I joined a professional sketching class for three years. However, all I drew were monotonous bottles and fruits. When it came to drawing people, they turned into monsters, and the fantastic fantasies in my mind couldn't be put onto paper.",
+                            "fr_FR": "À l'école primaire, j'étais l'artiste exceptionnel de la classe. Après le collège, j'ai rejoint une classe de dessin professionnel pendant trois ans. Cependant, tout ce que je dessinais étaient des bouteilles monotones et des fruits. Lorsqu'il s'agissait de dessiner des personnes, elles se transformaient en monstres, et les fantasmes fantastiques dans mon esprit ne pouvaient pas être mis sur papier.",
+                            "it_IT": "Alle elementari, ero l'artista eccezionale della classe. Dopo le scuole medie, ho frequentato una classe di disegno professionale per tre anni. Tuttavia, disegnavo solo bottiglie e frutta monotone. Quando si trattava di disegnare persone, diventavano mostri, e le fantastiche fantasie nella mia mente non potevano essere trasferite su carta.",
+                            "ja_JP": "小学校の頃、私はクラスで優れたアーティストでした。中学校卒業後、三年間専門のスケッチクラスに参加しました。しかし、描いたのは単調な瓶や果物だけでした。人物を描くと、それらは怪物に変わり、私の頭の中の素晴らしい幻想は紙に描けませんでした。",
+                            "pt_PT": "Na escola primária, eu era o artista destacado na classe. Após o ensino fundamental, participei de uma aula profissional de desenho por três anos. No entanto, tudo o que desenhei foram garrafas monótonas e frutas. Quando se tratava de desenhar pessoas, elas se transformavam em monstros, e as fantasias fantásticas em minha mente não podiam ser colocadas no papel.",
+                            "ru_RU": "В начальной школе я был выдающимся художником в классе. После средней школы я пошел на профессиональные занятия рисованием на три года. Однако все, что я рисовал, были однообразные бутылки и фрукты. Когда дело касалось рисования людей, они превращались в монстров, и фантастические фантазии в моем уме не могли быть перенесены на бумагу.",
+                            "ko_KR": "초등학교 때 나는 반에서 뛰어난 예술가였습니다. 중학교 이후에는 전문 스케치 수업에 세 년간 참여했습니다. 그러나 그린 것은 단조로운 병과 과일뿐이었습니다. 사람을 그릴 때 그들은 괴물로 변하고 내 마음의 환상적인 상상은 종이에 담을 수 없었습니다.",
+                            "es_ES": "En la escuela primaria, era el destacado artista de la clase. Después de la escuela secundaria, me uní a una clase de dibujo profesional durante tres años. Sin embargo, todo lo que dibujaba eran botellas y frutas monótonas. Cuando se trataba de dibujar personas, se convertían en monstruos, y las fantasías fantásticas en mi mente no podían plasmarse en papel.",
+                            "ar_EG": "في المدرسة الابتدائية، كنت الفنان المتميز في الصف. بعد المدرسة الإعدادية، انضممت إلى فصل رسم محترف لمدة ثلاث سنوات. ومع ذلك، كانت كل رسومي زجاجات وفواكه مملة. عندما يتعلق الأمر برسم البشر، يتحولون إلى وحوش، والخيال الرائع في عقلي لا يمكن تحويله إلى الورق.",
+                            "hi_IN": "प्राथमिक स्कूल में, मैं कक्षा में उत्कृष्ट कलाकार था। जूनियर हाई स्कूल के बाद, मैंने तीन साल के लिए एक पेशेवर स्केचिंग क्लास में शामिल हो गया। हालांकि, मैंने जो कुछ भी ड्रॉ किया, वह एकरूप बोतलें और फल थे। जब लोगों को ड्रॉ करने का समय आया, तो वे राक्षस बन गए, और मेरे मन में कल्पना की अद्भुत ख्यालात को कागज पर नहीं लिया जा सकता था।"
+                        }
+                    },
+                    {
+                        "text": {
+                            "zh_CN": "所以到底是我浪费了三年时光，还是素描补习班浪费了我三年时光，已经无人知晓。",
+                            "en_US": "So whether I wasted three years of my time or the sketching class wasted three years of my time, remains unknown to anyone.",
+                            "fr_FR": "Ainsi, que j'aie gaspillé trois ans de mon temps ou que la classe de dessin ait gaspillé trois ans de mon temps, reste inconnu de tous.",
+                            "it_IT": "Quindi, che io abbia sprecato tre anni del mio tempo o che la classe di disegno abbia sprecato tre anni del mio tempo, rimane sconosciuto a chiunque.",
+                            "ja_JP": "だから私が三年間を無駄にしたのか、それともスケッチクラスが私の三年間を無駄にしたのか、誰にもわかりません。",
+                            "pt_PT": "Portanto, se eu perdi três anos do meu tempo ou se a aula de desenho desperdiçou três anos do meu tempo, permanece desconhecido para qualquer um.",
+                            "ru_RU": "Так что, я ли потратил три года своего времени, или класс рисования потратил три года моего времени, остается неизвестным для кого-либо.",
+                            "ko_KR": "그래서 내가 내 시간을 세 년 낭비했는지, 아니면 스케치 수업이 나의 세 년을 낭비했는지는 아무도 모릅니다.",
+                            "es_ES": "Así que si perdí tres años de mi tiempo o si la clase de dibujo desperdició tres años de mi tiempo, sigue siendo desconocido para cualquiera.",
+                            "ar_EG": "لذلك ما إذا كنت قد أضعت ثلاث سنوات من وقتي أم أن فصل الرسم قد أضاع ثلاث سنوات من وقتي، يظل غير معروف لأي شخص.",
+                            "hi_IN": "तो क्या मैंने अपने तीन साल का समय बर्बाद किया है या स्केचिंग कक्षा ने मेरे तीन साल को बर्बाद किया है, यह किसी को नहीं पता है।"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": {
+                    "zh_CN": "奇幻世界",
+                    "en_US": "Fantasy World",
+                    "fr_FR": "Monde fantastique",
+                    "it_IT": "Mondo fantastico",
+                    "ja_JP": "ファンタジーの世界",
+                    "pt_PT": "Mundo de fantasia",
+                    "ru_RU": "Фэнтезийный мир",
+                    "ko_KR": "환상적인 세계",
+                    "es_ES": "Mundo de fantasía",
+                    "ar_EG": "عالم الخيال",
+                    "hi_IN": "कल्पना संसार"
+                },
+                "content": [
+                    {
+                        "text": {
+                            "zh_CN": "或许是现实太过于残酷和无趣，小说之中架空的世界、奇幻的能力、有趣的情节，深深地吸引着我。有的时候，我也想象着自己穿越进入虚幻世界之中的场景。那种感觉，真是——",
+                            "en_US": "Perhaps because reality is too harsh and uninteresting, the fictional worlds, fantastical abilities, and intriguing plots in novels deeply captivate me. Sometimes, I imagine scenes where I traverse into the realm of fantasy. That feeling, it's so -",
+                            "fr_FR": "Peut-être parce que la réalité est trop dure et ennuyeuse, les mondes fictifs, les capacités fantastiques et les intrigues intrigantes dans les romans me captivent profondément. Parfois, j'imagine des scènes où je traverse dans le royaume de la fantaisie. Ce sentiment, c'est tellement -",
+                            "it_IT": "Forse perché la realtà è troppo dura e poco interessante, i mondi fittizi, le abilità fantastiche e le trame intriganti nei romanzi mi affascinano profondamente. A volte, immagino scene in cui mi immergo nel regno della fantasia. Quella sensazione, è così -",
+                            "ja_JP": "現実があまりにも厳しいし面白くないからかもしれませんが、小説の中での架空の世界、幻想的な能力、興味深いプロットは私を深く引き込みます。時折、自分がファンタジーの領域に横断する場面を想像します。その感覚、それはまるで -",
+                            "pt_PT": "Talvez porque a realidade seja muito dura e sem graça, os mundos fictícios, as habilidades fantásticas e as tramas intrigantes nos romances me cativam profundamente. Às vezes, imagino cenas em que atravesso para o reino da fantasia. Essa sensação, é tão -",
+                            "ru_RU": "Возможно, потому что реальность слишком жесткая и неинтересная, вымышленные миры, фантастические способности и интересные сюжеты в романах глубоко меня привлекают. Иногда я представляю себе сцены, где я переношусь в мир фантазии. Это чувство, такое -",
+                            "ko_KR": "현실이 너무 힘들고 재미없기 때문일지도 모릅니다. 소설 속 공상적인 세계, 환상적인 능력, 흥미로운 플롯은 나를 깊이 끌어들입니다. 때로는 나도 상상 속에서 환상의 영역으로 여행하는 장면을 상상합니다. 그 느낌, 정말로 -",
+                            "es_ES": "Quizás porque la realidad es demasiado dura y aburrida, los mundos ficticios, las habilidades fantásticas y las tramas intrigantes en las novelas me cautivan profundamente. A veces, imagino escenas en las que atravieso el reino de la fantasía. Esa sensación, es tan -",
+                            "ar_EG": "ربما لأن الواقع صعب جدا وغير مثير، يجذبني العوالم الخيالية والقدرات الخيالية والحبكات المثيرة في الروايات بعمق. في بعض الأحيان، أتخيل مشاهد حيث أعبر إلى عالم الخيال. تلك الإحساس، إنها كذلك -",
+                            "hi_IN": "शायद हकीकत बहुत कड़ी और बोरिंग है, कहानियों में आविष्कृत दुनिया, कल्पनाशील क्षमताएँ और रोचक कथाएँ मुझे गहरे रूप से बहुत खींचती हैं। कभी-कभी, मैं ऐसे दृश्यों की कल्पना करता हूँ जहाँ मैं कल्पना के राज्य में पहुँचता हूँ। वह भावना, वाकई -"
+                        }
+                    },
+                    {
+                        "text": {
+                            "zh_CN": "太酷啦！",
+                            "en_US": "Cool!",
+                            "fr_FR": "Cool !",
+                            "it_IT": "Figo!",
+                            "ja_JP": "かっこいい！",
+                            "pt_PT": "Legal!",
+                            "ru_RU": "Круто!",
+                            "ko_KR": "멋져!",
+                            "es_ES": "¡Genial!",
+                            "ar_EG": "رائع!",
+                            "hi_IN": "बहुत बढ़िया!"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": {
+                    "zh_CN": "游戏",
+                    "en_US": "Gaming",
+                    "fr_FR": "Jeux",
+                    "it_IT": "Giochi",
+                    "ja_JP": "ゲーム",
+                    "pt_PT": "Jogos",
+                    "ru_RU": "Игры",
+                    "ko_KR": "게임",
+                    "es_ES": "Juegos",
+                    "ar_EG": "ألعاب",
+                    "hi_IN": "गेमिंग"
+                },
+                "content": [
+                    {
+                        "text": {
+                            "zh_CN": "电影，由情节、画面、背景乐构成，集合了小说、美术、音乐三者，能够给予观看者全方位的震撼。",
+                            "en_US": "Movies, consisting of plot, visuals, and background music, combine the elements of novels, art, and music to provide viewers with an all-encompassing impact.",
+                            "fr_FR": "Les films, composés d'intrigue, de visuels et de musique d'ambiance, combinent les éléments de romans, d'art et de musique pour offrir aux spectateurs un impact global.",
+                            "it_IT": "I film, composti da trama, immagini e musica di sottofondo, combinano gli elementi di romanzi, arte e musica per fornire agli spettatori un impatto globale.",
+                            "ja_JP": "映画は、プロット、ビジュアル、バックグラウンドミュージックから成り立ち、小説、美術、音楽の要素を組み合わせて観客に包括的なインパクトを提供します。",
+                            "pt_PT": "Filmes, compostos por enredo, visuais e música de fundo, combinam os elementos de romances, arte e música para proporcionar aos espectadores um impacto abrangente.",
+                            "ru_RU": "Фильмы, состоящие из сюжета, визуалов и фоновой музыки, объединяют элементы романов, искусства и музыки, чтобы предоставить зрителям всеобъемлющее воздействие.",
+                            "ko_KR": "플롯, 시각 및 배경 음악으로 이루어진 영화는 소설, 예술 및 음악의 요소를 결합하여 관객에게 전방위적인 충격을 제공합니다.",
+                            "es_ES": "Las películas, compuestas por trama, visuales y música de fondo, combinan los elementos de novelas, arte y música para proporcionar a los espectadores un impacto integral.",
+                            "ar_EG": "الأفلام، المكونة من الحبكة والمشاهد والموسيقى الخلفية، تجمع بين عناصر الروايات والفن والموسيقى لتقديم تأثير شامل للمشاهدين.",
+                            "hi_IN": "फिल्में, कहानी, दृश्य और पृष्ठभूमि संगीत से मिलकर, किस्सों, कला, और संगीत के तत्वों को जोड़कर दर्शकों को समृद्धि प्रदान करने के लिए हैं।"
+                        }
+                    },
+                    {
+                        "text": {
+                            "zh_CN": "而如果你了解游戏的话，你会发现，一个好的游戏，就像一部能够与你互动的电影，让你在享受全方位的震撼的同时，还能够参与其中。",
+                            "en_US": "And if you understand games, you will find that a good game is like an interactive movie that allows you to both enjoy a comprehensive impact and actively participate in the experience.",
+                            "fr_FR": "Et si vous comprenez les jeux, vous constaterez qu'un bon jeu est comme un film interactif qui vous permet à la fois de profiter d'un impact global et de participer activement à l'expérience.",
+                            "it_IT": "E se capisci i giochi, scoprirai che un buon gioco è come un film interattivo che ti permette di godere di un impatto globale e di partecipare attivamente all'esperienza.",
+                            "ja_JP": "そして、ゲームを理解している場合、良いゲームはあなたが包括的なインパクトを楽しむだけでなく、積極的に体験に参加できるようなインタラクティブな映画のようなものです。",
+                            "pt_PT": "E se você entender de jogos, perceberá que um bom jogo é como um filme interativo que permite tanto desfrutar de um impacto abrangente quanto participar ativamente da experiência.",
+                            "ru_RU": "И если вы разбираетесь в играх, то обнаружите, что хорошая игра похожа на интерактивный фильм, который позволяет вам не только наслаждаться всесторонним воздействием, но и активно участвовать в этом опыте.",
+                            "ko_KR": "게임을 이해한다면 좋은 게임은 당신이 포괄적인 영향을 즐기는 것뿐만 아니라 경험에 적극적으로 참여할 수 있는 대화형 영화와 같다는 것을 알게될 것입니다.",
+                            "es_ES": "Y si comprendes los juegos, descubrirás que un buen juego es como una película interactiva que te permite disfrutar de un impacto integral y participar activamente en la experiencia.",
+                            "ar_EG": "وإذا كنت تفهم الألعاب، ستجد أن لعبة جيدة تشبه فيلمًا تفاعليًا يسمح لك بالاستمتاع بتأثير شامل والمشاركة الفعّالة في التجربة.",
+                            "hi_IN": "और अगर आप खेल समझते हैं, तो आपको यह पता चलेगा कि एक अच्छा खेल एक ऐसा है जैसे एक इंटरऐक्टिव मूवी जो आपको समृद्धि प्रदान करने के साथ-साथ अनुभव में सक्रिय रूप से भाग लेने की अनुमति देता है।"
+                        }
+                    },
+                    {
+                        "text": {
+                            "zh_CN": "或许在很多人看来，游戏，是无形的毒品，让很多孩子甚至大人沉湎其中——我承认，确实有很多游戏深知人类的劣根性，通过各种手段，引诱人们心中的好胜心。曾经的我，也沉迷于一款竞技游戏，因为小小输赢而每日投入五六个小时。",
+                            "en_US": "Perhaps in the eyes of many, games are an invisible drug, leading many children and even adults to indulge in them. I admit that many games are well aware of human weaknesses, enticing the competitive spirit within. In the past, I was addicted to a competitive game, spending five to six hours daily due to the thrill of victory and defeat.",
+                            "fr_FR": "Peut-être aux yeux de beaucoup, les jeux sont une drogue invisible, conduisant de nombreux enfants et même adultes à s'y adonner. J'admets que beaucoup de jeux sont bien conscients des faiblesses humaines, attirant l'esprit compétitif intérieur. Dans le passé, j'étais accro à un jeu compétitif, passant cinq à six heures par jour à cause du frisson de la victoire et de la défaite.",
+                            "it_IT": "Forse agli occhi di molti, i giochi sono una droga invisibile, portando molti bambini e persino adulti ad indulgervi. Ammetto che molti giochi sono ben consapevoli delle debolezze umane, attirando lo spirito competitivo interiore. In passato, ero dipendente da un gioco competitivo, passando cinque o sei ore al giorno per l'emozione della vittoria e della sconfitta.",
+                            "ja_JP": "多くの人にとって、ゲームは見えない薬物であり、多くの子供や大人がその中に耽溺してしまっているかもしれません。私は、多くのゲームが人間の弱点をよく知っており、競争心を引き出す手段を駆使していることを認めます。かつて私も競技ゲームに夢中になり、勝ち負けのスリルに毎日5〜6時間を費やしていました。",
+                            "pt_PT": "Talvez aos olhos de muitos, os jogos sejam uma droga invisível, levando muitas crianças e até mesmo adultos a se entregarem a eles. Eu admito que muitos jogos têm plena consciência das fraquezas humanas, atraindo o espírito competitivo interior. No passado, eu era viciado em um jogo competitivo, passando cinco a seis horas diárias devido à emoção da vitória e da derrota.",
+                            "ru_RU": "Возможно, в глазах многих игры являются невидимым наркотиком, ведущим к тому, что многие дети и даже взрослые погружаются в них. Я признаю, что многие игры отлично осведомлены о слабостях человека, подстрекая конкурентный дух внутри. В прошлом я был зависим от конкурентной игры, тратя каждый день пять-шесть часов из-за волнения победы и поражения.",
+                            "ko_KR": "많은 이들에게는 게임은 보이지 않는 마약이며, 많은 어린이와 심지어 어른들도 그 중에 빠져들게 됩니다. 나는 많은 게임이 인간의 약점을 잘 알고 있으며, 내적인 경쟁 정신을 유도하는 수단을 사용한다고 인정합니다. 과거에 나는 경쟁 게임에 중독되어 승리와 패배의 스릴 때문에 매일 다섯 시간에서 여섯 시간을 소비했습니다.",
+                            "es_ES": "Quizás a ojos de muchos, los juegos sean una droga invisible, llevando a muchos niños e incluso adultos a sumergirse en ellos. Admito que muchos juegos son muy conscientes de las debilidades humanas, atrayendo el espíritu competitivo interno. En el pasado, estuve adicto a un juego competitivo, dedicando cinco a seis horas diarias debido a la emoción de la victoria y la derrota.",
+                            "ar_EG": "ربما في أعين الكثيرين، تكون الألعاب مثل دواء غير مرئي، مما يؤدي إلى غرق العديد من الأطفال وحتى الكبار فيها. أعترف بأن العديد من الألعاب على دراية جيدة بضعف الإنسان، مستخدمة وسائل متنوعة لاستفزاز روح المنافسة الداخلية. في الماضي، كنت مدمنًا على لعبة تنافسية، حيث كنت أقضي خمس إلى ست ساعات يوميًا بسبب إثارة الفوز والهزيمة.",
+                            "hi_IN": "शायद बहुत से लोगों की नजरों में, खेल एक अदृश्य मादक है, जिससे कई बच्चे और बड़े भी इसमें रत होते हैं। मैं स्वीकार करता हूँ कि कई खेल इंसान की कमजोरियों को अच्छे से जानते हैं, आंतरिक प्रतिस्पर्धा भावना को उत्तेजित करने के लिए विभिन्न साधनों का उपयोग करते हैं। कभी पहले, मैं एक प्रतिस्पर्धात्मक खेल में लत में पड़ा था, जीत के और हार के रोमांच के कारण प्रतिदिन पांच से छह घंटे बिताता था।"
+                        }
+                    },
+                    {
+                        "text": {
+                            "zh_CN": "但如今，我放弃了竞技游戏（绝对不是因为我菜），选择了角色扮演单机游戏——这种游戏，没有PVP（玩家对战），有的只是创作者为玩家精心准备的情节、画面，以及与之搭配的音乐——那是一个远离现实的奇幻世界。在那里，你会因为隐射现实的情节而会心一笑，也会因为感人肺腑的故事而潸然泪下。",
+                            "en_US": "But now, I've given up competitive gaming (definitely not because I'm bad at it) and opted for single-player RPG (role-playing games) without PVP (player versus player), featuring carefully crafted plots, visuals, and music by creators. It's a fantastical world far from reality. There, you might smile knowingly at plot points reflecting reality or shed tears at heartwarming stories.",
+                            "fr_FR": "Mais maintenant, j'ai renoncé aux jeux compétitifs (certainement pas parce que je suis mauvais), et j'ai opté pour des jeux de rôle solo sans JcJ (joueur contre joueur), présentant des intrigues, des visuels et de la musique soigneusement élaborés par les créateurs. C'est un monde fantastique loin de la réalité. Là-bas, vous pourriez sourire en connaissance de cause devant des points de l'intrigue reflétant la réalité ou verser des larmes devant des histoires émouvantes.",
+                            "it_IT": "Ma ora, ho abbandonato i giochi competitivi (sicuramente non perché sono scarso) e ho optato per giochi di ruolo in singolo giocatore senza PVP (giocatore contro giocatore), con trame, immagini e musiche attentamente create dai creatori. È un mondo fantastico lontano dalla realtà. Lì, potresti sorridere sapientemente di fronte a punti della trama che riflettono la realtà o versare lacrime davanti a storie commoventi.",
+                            "ja_JP": "しかし今では、競技ゲームをやめ（決して私が下手だからではありません）、PVP（プレイヤー対プレイヤー）のないシングルプレイヤーRPG（ロールプレイングゲーム）に移行しました。こうしたゲームは、クリエイターによって精巧に作り込まれたプロット、ビジュアル、音楽が特徴であり、現実から遠く離れた幻想的な世界です。そこでは、現実を反映したプロットポイントに知らせる笑顔を浮かべることもあり、心温まるストーリーに感動して涙することもあります。",
+                            "pt_PT": "Mas agora, desisti dos jogos competitivos (definitivamente não porque sou ruim nisso) e optei por jogos de RPG (jogos de interpretação de personagens) para um único jogador sem PVP (jogador versus jogador), com tramas cuidadosamente elaboradas, visuais e música pelos criadores. É um mundo fantástico longe da realidade. Lá, você pode sorrir sabiamente diante de pontos da trama que refletem a realidade ou derramar lágrimas por histórias emocionantes.",
+                            "ru_RU": "Но теперь я отказался от соревновательных игр (определенно не потому, что я в них плох), и предпочел одиночные ролевые игры без PVP (игрок против игрока), с тщательно проработанными сюжетами, визуальным оформлением и музыкой от создателей. Это фантастический мир, далекий от реальности. Там вы можете улыбнуться с знанием дела перед точками сюжета, отражающими реальность, или пролить слезы над трогательными историями.",
+                            "ko_KR": "하지만 지금은 경쟁적인 게임을 포기하고(정말로 재주 없다고 생각하지 마세요) PVP(플레이어 대 플레이어)가 없는 싱글 플레이어 RPG(역할 재생 게임)를 선택했습니다. 이런 게임은 제작자가 정성스럽게 준비한 줄거리, 시각적 효과 및 음악이 특징이며 현실에서 멀리 떨어진 환상적인 세계입니다. 거기에서는 현실을 반영한 줄거리 포인트에 유쾌하게 웃음짓거나 따뜻한 이야기에 감동하여 눈물을 흘릴 수 있습니다.",
+                            "es_ES": "Pero ahora, he renunciado a los juegos competitivos (definitivamente no porque sea malo en ello) y opté por juegos de rol para un solo jugador sin PVP (jugador contra jugador), con tramas cuidadosamente elaboradas, visuales y música de los creadores. Es un mundo fantástico lejos de la realidad. Allí, podrías sonreír sabiamente ante puntos de la trama que reflejan la realidad o derramar lágrimas ante historias conmovedoras.",
+                            "ar_EG": "ولكن الآن ، لقد تخليت عن الألعاب التنافسية (بالتأكيد ليس لأنني سيء في ذلك) واخترت ألعاب أدوار لاعب واحد بدون PVP (لاعب مقابل لاعب) ، تتميز بحبكة محكمة ورؤى وموسيقى بعناية من قِبل الأشخاص الذين قاموا بالإنشاء. إنه عالم خيالي بعيد عن الواقع. هناك ، قد تبتسم بفهم أمام نقاط الحبكة التي تعكس الواقع ، أو تذرف الدموع لقصص مؤثرة.",
+                            "hi_IN": "लेकिन अब, मैंने प्रतिस्पर्धी गेमिंग को छोड़ दिया है (निश्चित रूप से मैं इसमें खराब नहीं हूं), और एकल-प्लेयर आरपीजी (रोल-प्ले गेम्स) खेलने का चयन किया है जिसमें पीवीपी (प्लेयर बनाम प्लेयर) नहीं है, निर्माताओं द्वारा सावधानी से तैयार की गई कथाएँ, दृश्य और संगीत हैं। यह वास्तविकता से दूर एक काल्पनिक दुनिया है। वहां, आपको समझदारी से हंसी आ सकती है जो वास्तविकता को प्रतिबिंबित करती है या भावनात्मक कहानियों पर आंसू बहा सकती हैं।"
+                        }
+                    },
+                    {
+                        "text": {
+                            "zh_CN": "如果问我有什么梦想，那我会说——我想参与制作一款游戏，创造一个无数人愿意生活其中的虚拟世界。",
+                            "en_US": "If you ask me about my dreams, I would say - I want to participate in creating a game, to build a virtual world where countless people would be willing to live.",
+                            "fr_FR": "Si vous me demandez mes rêves, je dirais - je veux participer à la création d'un jeu, pour construire un monde virtuel où d'innombrables personnes seraient prêtes à vivre.",
+                            "it_IT": "Se mi chiedi dei miei sogni, direi: voglio partecipare alla creazione di un gioco, per costruire un mondo virtuale in cui innumerevoli persone sarebbero disposte a vivere.",
+                            "ja_JP": "夢について尋ねられたら、私は言います - ゲームの制作に参加し、無数の人々が住みたいと思う仮想の世界を築くことです。",
+                            "pt_PT": "Se me perguntarem sobre meus sonhos, eu direi - quero participar da criação de um jogo, para construir um mundo virtual onde inúmeras pessoas estariam dispostas a viver.",
+                            "ru_RU": "Если вы спросите меня о моих мечтах, я скажу - я хочу участвовать в создании игры, чтобы построить виртуальный мир, в котором бесчисленные люди готовы жить.",
+                            "ko_KR": "내 꿈에 대해 묻는다면 나는 말할 것이다 - 나는 게임 제작에 참여하고 무수히 많은 사람들이 살고 싶어하는 가상 세계를 만들고 싶다.",
+                            "es_ES": "Si me preguntas sobre mis sueños, diría: quiero participar en la creación de un juego, para construir un mundo virtual donde innumerables personas estarían dispuestas a vivir.",
+                            "ar_EG": "إذا سألتني عن أحلامي، سأقول - أرغب في المشاركة في إنشاء لعبة، لبناء عالم افتراضي حيث يكون العديد من الأشخاص على استعداد للعيش.",
+                            "hi_IN": "अगर आप मुझसे मेरे सपनों के बारे में पूछें, तो मैं कहूँगा - मैं एक गेम बनाने में शामिल होना चाहता हूँ, जिसमें बहुत से लोग रहने के लिए तैयार होंगे।"
+                        }
+                    }
+                ]
+            }
+        ],
+        "connect": {
+            "name": {
+                "en_US": "Hongchen Lin",
+                "zh_CN": "林洪琛",
+                "fr_FR": "Hongchen Lin",
+                "it_IT": "Hongchen Lin",
+                "ja_JP": "林洪琛",
+                "pt_PT": "Hongchen Lin",
+                "ru_RU": "Гунчэнь Линь",
+                "ko_KR": "홍천 린",
+                "es_ES": "Hongchen Lin",
+                "ar_EG": "هونجتشن لين",
+                "hi_IN": "होंगचेन लिन"
+            },
+            "title": {
+                "en_US": "A Caged Bird Far from Its Homeland",
+                "zh_CN": "远离故土的笼中鸟",
+                "fr_FR": "Un oiseau en cage loin de sa patrie",
+                "it_IT": "Un uccello in gabbia lontano dalla sua terra natale",
+                "ja_JP": "故郷から遠く離れた檻の中の鳥",
+                "pt_PT": "Um pássaro enjaulado longe de sua terra natal",
+                "ru_RU": "Птица в клетке далеко от родины",
+                "ko_KR": "고향에서 멀리 떨어진 새",
+                "es_ES": "Un pájaro enjaulado lejos de su tierra natal",
+                "ar_EG": "طائر محبوس بعيدًا عن وطنه",
+                "hi_IN": "अपने देश से दूर एक पिंजरे में बंद पक्षी"
+            },
+            "address": {
+                "en_US": "Earth, Solar System, Orion Arm, Milky Way Galaxy, Local Group, Virgo Supercluster, Observable Universe",
+                "zh_CN": "地球，太阳系，猎户臂，银河系，本地群，室女超星团，可观测宇宙",
+                "fr_FR": "Terre, Système solaire, Bras d'Orion, Voie lactée, Groupe local, Superamas de la Vierge, Univers observable",
+                "it_IT": "Terra, Sistema solare, Braccio di Orione, Galassia della Via Lattea, Gruppo Locale, Superammasso della Vergine, Universo osservabile",
+                "ja_JP": "地球、太陽系、オリオン腕、天の川銀河、ローカルグループ、おとめ座超銀河団、観測可能な宇宙",
+                "pt_PT": "Terra, Sistema Solar, Braço de Orion, Via Láctea, Grupo Local, Superaglomerado de Virgem, Universo Observável",
+                "ru_RU": "Земля, Солнечная система, Рука Ориона, Галактика Млечный Путь, Местная группа, Сверхскопление Дева, Наблюдаемая Вселенная",
+                "ko_KR": "지구, 태양계, 오리온 팔, 은하수, 로컬 그룹, 처녀자리 초거대 은하단, 관측 가능한 우주",
+                "es_ES": "Tierra, Sistema Solar, Brazo de Orión, Galaxia de la Vía Láctea, Grupo Local, Supercúmulo de Virgo, Universo Observable",
+                "ar_EG": "الأرض، النظام الشمسي، ذراع أوريون، مجرة درب التبانة، المجموعة المحلية، فوق عظمى العذراء، الكون المرئي",
+                "hi_IN": "पृथ्वी, सौर मंडल, ओरियन बांह, मिल्की वे गैलेक्सी, स्थानीय समूह, वर्गो सूपरक्लस्टर, दृष्टिगत ब्रह्मांड"
+            },
+            "email": "mihoyo@outlook.co.nz",
+            "link": {
+                "meta": "",
+                "twitter": "",
+                "linkedin": "",
+                "github": "https://github.com/lhinxue"
+            }
+        }
+    }
+}

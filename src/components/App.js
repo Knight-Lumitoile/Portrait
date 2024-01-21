@@ -1,86 +1,125 @@
-import './App.css';
+import "./App.css";
 import PageControl from "./controllers/PageControl";
-import {createContext, useState} from "react";
-import {ConfigProvider, Typography} from "antd";
+import {createContext, useEffect, useRef, useState} from "react";
+import {ConfigProvider} from "antd";
 import LocaleControl from "./controllers/LocaleControl";
 import Cover from "./pages/Cover";
 import ScreenLock from "./controllers/ScreenLock";
 import {Fade} from "react-awesome-reveal";
-import ScrollDemon from "./controllers/ScrollDemon";
-import __ from "../config/locale/config.json"
+import ScrollButton from "./controllers/ScrollButton";
 import {PageType} from "../config/enum";
 import Wiki from "./pages/Wiki";
+import "cross-fetch";
+import Footer from "./pages/Footer";
+import {layoutDirection, loadLocale, localeProvider,} from "../utilities/locale";
+import Remix from "./icons/Remix";
 
-const AppConfig = createContext(undefined)
+const AppConfig = createContext(undefined);
 
 function App() {
+    const [currentPage, _currentPage] = useState();
+    const [locale, _locale] = useState(loadLocale());
+    const [config, _config] = useState();
 
-    const [test, _test] = useState(0)
-    const [locale, _locale] = useState("en_US")
+    const pageControl = useRef();
 
-    const [isAppReady, _isAppReady] = useState(false)
-    const [isAnimationCompleted, _isAnimationCompleted] = useState(false)
+    const [isAppReady, _isAppReady] = useState(false);
+    const [isAnimationStg1, _isAnimationStg1] = useState(false);
+    const [isAnimationStg2, _isAnimationStg2] = useState(false);
 
-    const startApp = () => {
-        _isAppReady(true)
+    const startApp = async () => {
         setTimeout(() => {
-            _isAnimationCompleted(true)
-        }, 2000)
-    }
+            _isAppReady(true);
+            setTimeout(() => {
+                _isAnimationStg1(true);
+                setTimeout(() => {
+                    _isAnimationStg2(true);
+                }, 3300);
+            }, 2000);
+        }, 1000);
+    };
 
     const renderPage = (page) => {
         switch (page.type) {
             case PageType.Cover:
-                return <Cover ready={isAppReady}/>;
+                return <Cover ready={isAppReady} pageId={page.key}/>;
             case PageType.Wiki:
                 return <Wiki pageId={page.key}/>;
             case PageType.Footer:
-                return <Typography.Text>Connect联络</Typography.Text>;
+                return <Footer pageId={page.key}/>;
             default:
                 return null;
         }
-    }
+    };
 
+    const scrollDown = () => {
+        if (currentPage < config.pages.length - 1) {
+            pageControl.current.scrollTo(currentPage + 1);
+        } else {
+            pageControl.current.scrollTo(0);
+        }
+    };
 
-    return (
-        <>
-            <div className="App">
+    useEffect(() => {
+        fetch("data/config.json")
+            .then((resp) => resp.json())
+            .then((data) => _config(data))
+            .then(startApp);
+    }, []);
 
-                <div style={{position: "fixed", color: "red", top: 50, zIndex: 9999}} onClick={startApp}>button {test}</div>
-
-
-                <AppConfig.Provider value={{locale, _locale}}>
-                    <ConfigProvider>
-                        <ScreenLock active={!isAnimationCompleted}/>
-                        <PageControl.Parent
-                            currentPage={test}
-                            onChange={console.log}
-                            showSteps={isAnimationCompleted}
-                            steps={__.pages}
-                        >
-                            {
-                                __.pages.map((page) =>
-                                    <PageControl.Child>
+    if (config !== undefined) {
+        return (
+            <AppConfig.Provider value={{locale, _locale, config}}>
+                <ConfigProvider
+                    theme={{
+                        token: {
+                            fontFamily: `Neutralizer, StarRailEn, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif`,
+                        },
+                    }}
+                >
+                    <ConfigProvider
+                        locale={localeProvider[locale]}
+                        direction={layoutDirection[locale]}
+                    >
+                        <div className="App">
+                            <ScreenLock active={!isAnimationStg2}/>
+                            <PageControl.Parent
+                                ref={pageControl}
+                                // currentPage={targetPage}
+                                onChange={_currentPage}
+                                showSteps={isAnimationStg1}
+                                steps={config.pages}
+                            >
+                                {config.pages.map((page, i) => (
+                                    <PageControl.Child key={i}>
                                         {renderPage(page)}
                                     </PageControl.Child>
-                                )
-                            }
-                        </PageControl.Parent>
-                        {
-                            isAnimationCompleted ?
-                                <Fade delay={3300} triggerOnce>
-                                    <LocaleControl/>
-                                    <ScrollDemon/>
-                                </Fade> : <></>
-                        }
+                                ))}
+                            </PageControl.Parent>
+                        </div>
                     </ConfigProvider>
-                </AppConfig.Provider>
-            </div>
-        </>
-    );
+                    {isAnimationStg1 ? (
+                        <Fade delay={3300} triggerOnce>
+                            <LocaleControl/>
+                            <ScrollButton
+                                onClick={scrollDown}
+                                icon={
+                                    currentPage === config.pages.length - 1 ? (
+                                        <Remix.ArrowUpDouble/>
+                                    ) : (
+                                        <Remix.ArrowDown/>
+                                    )
+                                }
+                            />
+                        </Fade>
+                    ) : (
+                        <></>
+                    )}
+                </ConfigProvider>
+            </AppConfig.Provider>
+        );
+    }
 }
 
 export default App;
-export {
-    AppConfig
-}
+export {AppConfig};

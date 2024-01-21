@@ -1,5 +1,5 @@
-import {Corner, Root, Scrollbar, Thumb, Viewport} from "@radix-ui/react-scroll-area";
-import "./ScrollArea.css"
+import {Corner, Root, Scrollbar, Thumb, Viewport,} from "@radix-ui/react-scroll-area";
+import "./ScrollArea.css";
 import {forwardRef} from "react";
 
 const ScrollArea = forwardRef(({children, onScroll}, ref) => {
@@ -16,7 +16,7 @@ const ScrollArea = forwardRef(({children, onScroll}, ref) => {
             </Scrollbar>
             <Corner/>
         </Root>
-    )
-})
+    );
+});
 
-export default ScrollArea
+export default ScrollArea;

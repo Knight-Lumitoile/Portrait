@@ -1,19 +1,19 @@
-.Card{
+.Card {
     /*background-color: #222;*/
     padding: 20px 40px;
     box-sizing: border-box;
     border-radius: 20px;
     margin: 20px 0;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    transition: all .3s ease-in-out;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 0 24px;
+    transition: all 0.3s ease-in-out;
     overflow: hidden;
+    border: 1px solid white;
 }
-.Card:hover{
-    transform: scale(1.02);
-}
-.Card h3{
+
+.Card h3 {
     margin-top: 10px;
 }
-.ant-typography{
+
+.ant-typography {
     white-space: pre-line;
 }

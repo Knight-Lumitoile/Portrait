@@ -2,52 +2,27 @@
     height: 100vh;
 }
 
-.Page {
-    min-height: 500px;
-}
-
 .Stepper {
     position: fixed;
-    width: 100vw;
-    bottom: 9vh;
+    height: 100vh;
+    right: 10px;
+    top: 0;
     display: flex;
-    justify-content: center;
-
+    align-items: center;
 }
 
-.Stepper > div {
-    background-color: #FFFFFF;
-    padding: 8px;
-    border-radius: 10px;
-    box-shadow: rgba(255, 255, 255, 1) 0px 0px 10px 10px;
+.Steps {
+    display: flex;
+    flex-direction: column;
 }
 
-.Stepper .ant-steps-item {
-    min-width: 50px;
+.Steps > div {
+    padding-bottom: 5px;
 }
 
-.Stepper .ant-steps-item-container {
-    background: none !important;
-}
-
-.Stepper .ant-steps-item-content {
-    margin-top: -2.1rem !important;
-}
-
-.Stepper .ant-steps-item-title {
-
-    color: rgba(0, 0, 0, 0.5) !important;
-}
-
-.Stepper .ant-steps-item-active .ant-steps-item-title {
-    color: rgba(0, 0, 0, 0.8) !important;
-}
-
-.Stepper .ant-steps-item:hover .ant-steps-item-title {
-    color: rgba(0, 0, 0, 0.8) !important;
-}
-
-
-.Stepper .ant-steps .ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon {
-    /*color: transparent !important;*/
+.Steps button {
+    min-width: 15px !important;
+    width: 15px !important;
+    min-height: 15px !important;
+    height: 15px !important;
 }

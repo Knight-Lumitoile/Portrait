@@ -1,11 +1,7 @@
-import "./RevealLabel.css"
+import "./RevealLabel.css";
 
-function RevealLabel({ children }) {
-    return (
-        <span className={"RevealLabel"}>
-            {children}
-        </span>
-    )
+function RevealLabel({children}) {
+    return <span className={"RevealLabel"}>{children}</span>;
 }
 
-export default RevealLabel
+export default RevealLabel;

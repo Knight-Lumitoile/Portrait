@@ -1,9 +1,7 @@
 const PageType = {
     Cover: "cover",
     Wiki: "wiki",
-    Footer:"footer"
-}
+    Footer: "footer",
+};
 
-export {
-    PageType
-}
+export {PageType};

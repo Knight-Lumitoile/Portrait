@@ -1,7 +1,8 @@
-.RevealLabel{
+.RevealLabel {
     opacity: 0;
-    transition: opacity .3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
-.RevealLabel:hover{
+
+.RevealLabel:hover {
     opacity: 1;
 }

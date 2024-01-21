@@ -10,7 +10,7 @@ const FadeUp = (d) => keyframes`
     opacity: 1;
     transform: translateY(0px);
   }
-`
+`;
 
 const FadeRight = (d) => keyframes`
   from {
@@ -22,7 +22,7 @@ const FadeRight = (d) => keyframes`
     opacity: 1;
     transform: translateX(0px);
   }
-`
+`;
 
 const Flip = () => keyframes`
   from {
@@ -33,10 +33,6 @@ const Flip = () => keyframes`
     opacity: 1;
     transform: rotateY(0);
   }
-`
+`;
 
-export {
-    FadeUp,
-    FadeRight,
-    Flip
-}
+export {FadeUp, FadeRight, Flip};
