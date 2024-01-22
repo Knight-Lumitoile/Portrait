@@ -1,20 +1,3 @@
-@font-face {
-    font-family: "Neutralizer";
-    src: url("./fonts/Neutralizer.ttf");
-}
-
-@font-face {
-    font-family: "StarRailEn";
-    src: url("./fonts/DINNextW1G-Light.otf");
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "StarRailEn";
-    src: url("./fonts/DINNextW1G-Medium.otf");
-    font-weight: bold;
-}
-
 body {
     margin: 0;
     padding: 0;

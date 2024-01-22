@@ -13,6 +13,7 @@ import "cross-fetch";
 import Footer from "./pages/Footer";
 import {layoutDirection, loadLocale, localeProvider,} from "../utilities/locale";
 import Remix from "./icons/Remix";
+import "../fonts/Font.css"
 
 const AppConfig = createContext(undefined);
 
@@ -73,7 +74,7 @@ function App() {
                 <ConfigProvider
                     theme={{
                         token: {
-                            fontFamily: `Neutralizer, StarRailEn, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif`,
+                            fontFamily: `Honkai, StarRail-EN, StarRail-ZH, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif`,
                         },
                     }}
                 >

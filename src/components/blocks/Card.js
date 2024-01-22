@@ -23,7 +23,7 @@ function Card({title, timestamp, subtitle, content}) {
                             ) : null}
                             {timestamp && subtitle ? <br/> : null}
                             {subtitle ? (
-                                <Typography.Text italic style={{color: blue.primary}}>
+                                <Typography.Text style={{color: blue.primary}}>
                                     <DLL c={subtitle}/>
                                 </Typography.Text>
                             ) : null}
