@@ -13,6 +13,7 @@ function Footer({pageId}) {
     const openLink = (id) => {
         window.open(config.content[pageId].link[id]).focus();
     };
+
     return (
         <div className={"Footer"}>
             <Typography.Paragraph align={"center"}>
@@ -37,28 +38,28 @@ function Footer({pageId}) {
                         <Button
                             type={"text"}
                             shape={"circle"}
-                            icon={<Remix.meta/>}
+                            icon={<Remix.Meta/>}
                             size={"small"}
                             onClick={() => openLink("meta")}
                         />
                         <Button
                             type={"text"}
                             shape={"circle"}
-                            icon={<Remix.twitter/>}
+                            icon={<Remix.Twitter/>}
                             size={"small"}
                             onClick={() => openLink("twitter")}
                         />
                         <Button
                             type={"text"}
                             shape={"circle"}
-                            icon={<Remix.linkedin/>}
+                            icon={<Remix.Linkedin/>}
                             size={"small"}
                             onClick={() => openLink("linkedin")}
                         />
                         <Button
                             type={"text"}
                             shape={"circle"}
-                            icon={<Remix.github/>}
+                            icon={<Remix.Github/>}
                             size={"small"}
                             onClick={() => openLink("github")}
                         />

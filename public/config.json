@@ -501,6 +501,70 @@
         "creation": [
             {
                 "title": {
+                    "en_US": "Portrait",
+                    "fr_FR": "Portrait",
+                    "it_IT": "Ritratto",
+                    "ja_JP": "肖像",
+                    "pt_PT": "Retrato",
+                    "ru_RU": "Портрет",
+                    "ko_KR": "초상화",
+                    "es_ES": "Retrato",
+                    "ar_EG": "صورة فنية",
+                    "hi_IN": "पोर्ट्रेट",
+                    "zh_CN": "肖像"
+                },
+                "timestamp": {
+                    "en_US": "2024",
+                    "fr_FR": "2024",
+                    "it_IT": "2024",
+                    "ja_JP": "2024",
+                    "pt_PT": "2024",
+                    "ru_RU": "2024",
+                    "ko_KR": "2024",
+                    "es_ES": "2024",
+                    "ar_EG": "٢٠٢٤",
+                    "hi_IN": "2024",
+                    "zh_CN": "2024"
+                },
+                "subtitle": {
+                    "en_US": "ReactJS",
+                    "fr_FR": "ReactJS",
+                    "it_IT": "ReactJS",
+                    "ja_JP": "ReactJS",
+                    "pt_PT": "ReactJS",
+                    "ru_RU": "ReactJS",
+                    "ko_KR": "ReactJS",
+                    "es_ES": "ReactJS",
+                    "ar_EG": "ReactJS",
+                    "hi_IN": "ReactJS",
+                    "zh_CN": "ReactJS"
+                },
+                "content": [
+                    {
+                        "text": {
+                            "en_US": "My personal website - the one you are currently looking at.",
+                            "fr_FR": "Mon site personnel - celui que vous regardez actuellement.",
+                            "it_IT": "Il mio sito personale - quello che stai guardando in questo momento.",
+                            "ja_JP": "私の個人ウェブサイト - あなたが現在見ているものです。",
+                            "pt_PT": "Meu site pessoal - o que você está vendo atualmente.",
+                            "ru_RU": "Мой личный веб-сайт - тот, который вы сейчас просматриваете.",
+                            "ko_KR": "나의 개인 웹사이트 - 현재 보고 계신 것입니다.",
+                            "es_ES": "Mi sitio web personal, el que estás viendo actualmente.",
+                            "ar_EG": "موقعي الشخصي - الذي تنظر إليه حالياً.",
+                            "hi_IN": "मेरी व्यक्तिगत वेबसाइट - जिस पर आप वर्तमान में झांक रहे हैं।",
+                            "zh_CN": "我的个人网站 - 您当前正在查看的网站。"
+                        }
+                    }
+                ],
+                "links": [
+                    {
+                        "name": "Github",
+                        "link": "https://github.com/Knight-Lumitoile/Portrait"
+                    }
+                ]
+            },
+            {
+                "title": {
                     "en_US": "Pour la Money",
                     "zh_CN": "Pour la Money",
                     "fr_FR": "Pour la Money",
@@ -554,6 +618,12 @@
                             "ar_EG": "تطبيق محاسبة يصنف الفواتير لتوفير فهم واضح للمستخدمين حول نفقاتهم، مع دعم عدة عملات.",
                             "hi_IN": "एक लेखा एप्लिकेशन जो बिल्स को श्रेणीबद्ध करता है ताकि उपयोगकर्ताओं को उनकी खर्चों का स्पष्ट ज्ञान हो, साथ ही कई मुद्राओं का समर्थन भी करता है।"
                         }
+                    }
+                ],
+                "links": [
+                    {
+                        "name": "Github",
+                        "link": "https://github.com/Knight-Lumitoile/Pour-la-Money"
                     }
                 ]
             },
@@ -627,6 +697,12 @@
                             "ar_EG": "الطريقة المستخدمة في التشفير تتضمن إجراء عملية XOR على محتوى الملف باستخدام كلمة مرور مدخلة. يمكن أن تتألف كلمة المرور من أي أحرف، وليس فقط الأحرف والأرقام. كلما زادت طول كلمة المرور، زاد تعزيز التشفير.",
                             "hi_IN": "प्रयुक्त गुप्तीकरण विधि में फ़ाइल सामग्री को एक इनपुट पासवर्ड के साथ XOR करने की शामिल है। पासवर्ड में केवल अक्षर और संख्याओं से ही सीमित नहीं होता है, बल्कि यह किसी भी वर्णों को शामिल कर सकता है। जितना लंबा पासवर्ड होगा, उतना ही गुप्तीकरण मजबूत होगा।"
                         }
+                    }
+                ],
+                "links": [
+                    {
+                        "name": "Github",
+                        "link": "https://github.com/Knight-Lumitoile/Turandot"
                     }
                 ]
             }

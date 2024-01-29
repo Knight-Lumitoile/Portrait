@@ -1,0 +1,8 @@
+.TagGroup .Tag {
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.TagGroup .Tag > span:last-child {
+    margin-inline-start: 3px;
+}

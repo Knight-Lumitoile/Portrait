@@ -62,7 +62,7 @@ function App() {
     };
 
     useEffect(() => {
-        fetch("data/config.json")
+        fetch("config.json")
             .then((resp) => resp.json())
             .then((data) => _config(data))
             .then(startApp);

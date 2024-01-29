@@ -17,6 +17,7 @@ function Wiki({pageId}) {
                     timestamp={v.timestamp}
                     subtitle={v.subtitle}
                     content={v.content}
+                    links={v.links}
                 />
             ))}
         </div>
