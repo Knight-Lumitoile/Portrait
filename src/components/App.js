@@ -14,6 +14,7 @@ import Footer from "./pages/Footer";
 import {layoutDirection, loadLocale, localeProvider,} from "../utilities/locale";
 import Remix from "./icons/Remix";
 import "../fonts/Font.css"
+import BubbleBackground from "./blocks/BubbleBackground";
 
 const AppConfig = createContext(undefined);
 
@@ -82,6 +83,7 @@ function App() {
                         locale={localeProvider[locale]}
                         direction={layoutDirection[locale]}
                     >
+                        <BubbleBackground/>
                         <div className="App">
                             <ScreenLock active={!isAnimationStg2}/>
                             <PageControl.Parent

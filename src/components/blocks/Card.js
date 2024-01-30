@@ -1,4 +1,4 @@
-import {Typography} from "antd";
+import {Typography, theme} from "antd";
 import "./Card.css";
 import {Fade, Reveal} from "react-awesome-reveal";
 import {blue} from "@ant-design/colors";
@@ -13,13 +13,15 @@ function Card({title, timestamp, subtitle, content, links}) {
 
     const {config} = useContext(AppConfig);
 
+    const {token} = theme.useToken();
+
 
     return (
         <Fade>
             <div className={`Card`}>
                 <Typography.Paragraph>
                     <Reveal keyframes={FadeUp(20)} cascade damping={0.1}>
-                        <Typography.Title level={3} style={{color: blue.primary}}>
+                        <Typography.Title level={3} style={{color: token.colorPrimary}}>
                             {<DLL c={title}/>}
                         </Typography.Title>
                         <Typography.Paragraph>
@@ -30,7 +32,7 @@ function Card({title, timestamp, subtitle, content, links}) {
                             ) : null}
                             {timestamp && subtitle ? <br/> : null}
                             {subtitle ? (
-                                <Typography.Text style={{color: blue.primary}}>
+                                <Typography.Text style={{color: token.colorPrimary}}>
                                     <DLL c={subtitle}/>
                                 </Typography.Text>
                             ) : null}

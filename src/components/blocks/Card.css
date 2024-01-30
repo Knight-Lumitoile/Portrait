@@ -7,7 +7,8 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0 0 24px;
     transition: all 0.3s ease-in-out;
     overflow: hidden;
-    border: 1px solid white;
+    border: 1px solid #ffffffaa;
+    background-color: #ffffffaa;
     position: relative;
 }
 
