@@ -1,20 +1,25 @@
 import "./App.css";
 import PageControl from "./controllers/PageControl";
-import {createContext, useEffect, useRef, useState} from "react";
-import {ConfigProvider} from "antd";
+import { createContext, useEffect, useRef, useState } from "react";
+import { ConfigProvider } from "antd";
 import LocaleControl from "./controllers/LocaleControl";
 import Cover from "./pages/Cover";
 import ScreenLock from "./controllers/ScreenLock";
-import {Fade} from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import ScrollButton from "./controllers/ScrollButton";
-import {PageType} from "../config/enum";
+import { PageType } from "../config/enum";
 import Wiki from "./pages/Wiki";
 import "cross-fetch";
 import Footer from "./pages/Footer";
-import {layoutDirection, loadLocale, localeProvider,} from "../utilities/locale";
+import {
+    layoutDirection,
+    loadLocale,
+    localeProvider,
+} from "../utilities/locale";
 import Remix from "./icons/Remix";
-import "../fonts/Font.css"
+import "../fonts/Font.css";
 import BubbleBackground from "./blocks/BubbleBackground";
+import * as antColor from "@ant-design/colors";
 
 const AppConfig = createContext(undefined);
 
@@ -22,6 +27,7 @@ function App() {
     const [currentPage, _currentPage] = useState();
     const [locale, _locale] = useState(loadLocale());
     const [config, _config] = useState();
+    const [color, _color] = useState();
 
     const pageControl = useRef();
 
@@ -44,11 +50,11 @@ function App() {
     const renderPage = (page) => {
         switch (page.type) {
             case PageType.Cover:
-                return <Cover ready={isAppReady} pageId={page.key}/>;
+                return <Cover ready={isAppReady} pageId={page.key} />;
             case PageType.Wiki:
-                return <Wiki pageId={page.key}/>;
+                return <Wiki pageId={page.key} />;
             case PageType.Footer:
-                return <Footer pageId={page.key}/>;
+                return <Footer pageId={page.key} />;
             default:
                 return null;
         }
@@ -62,7 +68,26 @@ function App() {
         }
     };
 
+    const randomColor = () => {
+        const colors = [
+            antColor.red,
+            antColor.volcano,
+            antColor.orange,
+            antColor.gold,
+            antColor.yellow,
+            antColor.lime,
+            antColor.green,
+            antColor.cyan,
+            antColor.blue,
+            antColor.geekblue,
+            antColor.purple,
+            antColor.magenta,
+        ];
+        return colors[Math.floor(Math.random() * colors.length)];
+    };
+
     useEffect(() => {
+        _color(randomColor());
         fetch("config.json")
             .then((resp) => resp.json())
             .then((data) => _config(data))
@@ -71,11 +96,12 @@ function App() {
 
     if (config !== undefined) {
         return (
-            <AppConfig.Provider value={{locale, _locale, config}}>
+            <AppConfig.Provider value={{ locale, _locale, config, color }}>
                 <ConfigProvider
                     theme={{
                         token: {
                             fontFamily: `Honkai, StarRail-EN, StarRail-ZH, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif`,
+                            colorPrimary: color.primary,
                         },
                     }}
                 >
@@ -83,9 +109,9 @@ function App() {
                         locale={localeProvider[locale]}
                         direction={layoutDirection[locale]}
                     >
-                        <BubbleBackground/>
+                        <BubbleBackground />
                         <div className="App">
-                            <ScreenLock active={!isAnimationStg2}/>
+                            <ScreenLock active={!isAnimationStg2} />
                             <PageControl.Parent
                                 ref={pageControl}
                                 // currentPage={targetPage}
@@ -103,14 +129,14 @@ function App() {
                     </ConfigProvider>
                     {isAnimationStg1 ? (
                         <Fade delay={3300} triggerOnce>
-                            <LocaleControl/>
+                            <LocaleControl />
                             <ScrollButton
                                 onClick={scrollDown}
                                 icon={
                                     currentPage === config.pages.length - 1 ? (
-                                        <Remix.ArrowUpDouble/>
+                                        <Remix.ArrowUpDouble />
                                     ) : (
-                                        <Remix.ArrowDown/>
+                                        <Remix.ArrowDown />
                                     )
                                 }
                             />
@@ -125,4 +151,4 @@ function App() {
 }
 
 export default App;
-export {AppConfig};
+export { AppConfig };

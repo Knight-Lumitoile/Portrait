@@ -6,7 +6,7 @@ import { theme } from "antd";
 const BubbleBackground = ({
     backgroundColor = "#ffffff",
     bubbleColor = "rgb(190 248 255)",
-    bubbleCount = 10,
+    bubbleCount = 16,
     speed = 10,
 }) => {
     const [bubbles, setBubbles] = useState([]);
@@ -16,7 +16,7 @@ const BubbleBackground = ({
         const createBubble = (index) => ({
             id: index,
             left: `${(index / bubbleCount) * 100}vw`,
-            animationDuration: `${(Math.random() * 0.5 + 0.75) * speed}s`, // Adjusted speed variation
+            animationDuration: `${(Math.random() * 0.7 + 0.7) * speed}s`, // Adjusted speed variation
         });
 
         setBubbles(

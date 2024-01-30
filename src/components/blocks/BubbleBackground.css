@@ -13,18 +13,19 @@
     bottom: 0;
     width: 20px;
     height: 20px;
-    border-radius: 0;
+    border-radius: 1em;
 }
 
 @keyframes rise {
     0% {
-        transform: translateY(0) rotate(0) scale(1);
+        transform: translateY(0) scale(1);
         opacity: 0;
     }
     30% {
-        opacity: .3;
+        opacity: .1;
     }
     100% {
-        transform: translateY(-100vh) rotate(180deg) scale(2);
+        transform: translateY(-100vh) scale(2);
+        opacity: .2;
     }
 }
