@@ -1,4 +1,4 @@
-import {keyframes} from "@emotion/react";
+import { keyframes } from "@emotion/react";
 
 const FadeUp = (d) => keyframes`
   from {
@@ -35,4 +35,4 @@ const Flip = () => keyframes`
   }
 `;
 
-export {FadeUp, FadeRight, Flip};
+export { FadeUp, FadeRight, Flip };

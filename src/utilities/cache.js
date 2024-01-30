@@ -7,4 +7,4 @@ const saveCache = (key, value) => {
     localStorage.setItem(key, JSON.stringify(value));
 };
 
-export {loadCache, saveCache};
+export { loadCache, saveCache };

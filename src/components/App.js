@@ -1,90 +1,64 @@
-import "./App.css";
-import PageControl from "./controllers/PageControl";
-import { createContext, useEffect, useRef, useState } from "react";
 import { ConfigProvider } from "antd";
-import LocaleControl from "./controllers/LocaleControl";
-import Cover from "./pages/Cover";
-import ScreenLock from "./controllers/ScreenLock";
-import { Fade } from "react-awesome-reveal";
-import ScrollButton from "./controllers/ScrollButton";
-import { PageType } from "../config/enum";
-import Wiki from "./pages/Wiki";
 import "cross-fetch";
-import Footer from "./pages/Footer";
-import {
-    layoutDirection,
-    loadLocale,
-    localeProvider,
-} from "../utilities/locale";
-import Remix from "./icons/Remix";
+import { createContext, useEffect, useRef, useState } from "react";
+import { Fade } from "react-awesome-reveal";
 import "../fonts/Font.css";
-import BubbleBackground from "./blocks/BubbleBackground";
-import * as antColor from "@ant-design/colors";
-import BGM from "./controllers/BGM";
+import { randomColor } from "../utilities/color";
+import { layoutDirection, loadLocale, localeProvider } from "../utilities/locale";
+import { sleep } from "../utilities/time";
+import BubbleBackground from "./animations/BubbleBackground";
+import BGM from "./widgets/BGM";
+import LocaleControl from "./widgets/LocaleControl";
+import PageControl from "./widgets/PageControl";
+import ScreenLock from "./widgets/ScreenLock";
+import ScrollButton from "./widgets/ScrollButton";
+import Remix from "./icons/Remix";
+import Cover from "./pages/Cover";
+import Footer from "./pages/Footer";
+import Wiki from "./pages/Wiki";
 
 const AppConfig = createContext(undefined);
 
 function App() {
+    const pageControl = useRef();
+
     const [currentPage, _currentPage] = useState();
     const [locale, _locale] = useState(loadLocale());
     const [config, _config] = useState();
     const [color, _color] = useState();
-
-    const pageControl = useRef();
 
     const [isAppReady, _isAppReady] = useState(false);
     const [isAnimationStg1, _isAnimationStg1] = useState(false);
     const [isAnimationStg2, _isAnimationStg2] = useState(false);
 
     const startApp = async () => {
-        setTimeout(() => {
-            _isAppReady(true);
-            setTimeout(() => {
-                _isAnimationStg1(true);
-                setTimeout(() => {
-                    _isAnimationStg2(true);
-                }, 3300);
-            }, 2000);
-        }, 1000);
+        await sleep(1);
+        _isAppReady(true);
+        await sleep(2);
+        _isAnimationStg1(true);
+        await sleep(3.3);
+        _isAnimationStg2(true);
     };
 
     const renderPage = (page) => {
         switch (page.type) {
-            case PageType.Cover:
+            case "cover":
                 return <Cover ready={isAppReady} pageId={page.key} />;
-            case PageType.Wiki:
+            case "wiki":
                 return <Wiki pageId={page.key} />;
-            case PageType.Footer:
+            case "footer":
                 return <Footer pageId={page.key} />;
             default:
                 return null;
         }
     };
 
-    const scrollDown = () => {
+    const onPageScroll = () => {
         if (currentPage < config.pages.length - 1) {
             pageControl.current.scrollTo(currentPage + 1);
         } else {
             pageControl.current.scrollTo(0);
         }
-    };
-
-    const randomColor = () => {
-        const colors = [
-            antColor.red,
-            antColor.volcano,
-            antColor.orange,
-            antColor.gold,
-            antColor.yellow,
-            antColor.lime,
-            antColor.green,
-            antColor.cyan,
-            antColor.blue,
-            antColor.geekblue,
-            antColor.purple,
-            antColor.magenta,
-        ];
-        return colors[Math.floor(Math.random() * colors.length)];
     };
 
     useEffect(() => {
@@ -106,25 +80,19 @@ function App() {
                         },
                     }}
                 >
-                    <ConfigProvider
-                        locale={localeProvider[locale]}
-                        direction={layoutDirection[locale]}
-                    >
+                    <ConfigProvider locale={localeProvider[locale]} direction={layoutDirection[locale]}>
                         <BubbleBackground />
-                        <BGM start={isAnimationStg2} url={"bgm/Take the Journey.ogg"}/>
+                        <BGM start={isAnimationStg2} url={"bgm/Take the Journey.ogg"} />
                         <div className="App">
                             <ScreenLock active={!isAnimationStg2} />
                             <PageControl.Parent
                                 ref={pageControl}
-                                // currentPage={targetPage}
                                 onChange={_currentPage}
                                 showSteps={isAnimationStg1}
                                 steps={config.pages}
                             >
                                 {config.pages.map((page, i) => (
-                                    <PageControl.Child key={i}>
-                                        {renderPage(page)}
-                                    </PageControl.Child>
+                                    <PageControl.Child key={i}>{renderPage(page)}</PageControl.Child>
                                 ))}
                             </PageControl.Parent>
                         </div>
@@ -133,7 +101,7 @@ function App() {
                         <Fade delay={3300} triggerOnce>
                             <LocaleControl />
                             <ScrollButton
-                                onClick={scrollDown}
+                                onClick={onPageScroll}
                                 icon={
                                     currentPage === config.pages.length - 1 ? (
                                         <Remix.ArrowUpDouble />
@@ -154,3 +122,4 @@ function App() {
 
 export default App;
 export { AppConfig };
+

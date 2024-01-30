@@ -1,4 +1,5 @@
 import { useRef, useEffect } from "react";
+import { sleep } from "../../utilities/time";
 
 const BGM = ({ start, url, volume = 0.3 }) => {
     const audioRef = useRef(null);
@@ -10,10 +11,8 @@ const BGM = ({ start, url, volume = 0.3 }) => {
             try {
                 await audioRef.current.play();
             } catch (error) {
-                console.log("replay");
-                setTimeout(() => {
-                    play();
-                }, 500);
+                await sleep(0.5);
+                play();
             }
         }
     };

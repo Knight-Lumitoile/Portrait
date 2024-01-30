@@ -1,16 +1,8 @@
-import "./PageControl.css";
-import {
-    Children,
-    cloneElement,
-    forwardRef,
-    useEffect,
-    useImperativeHandle,
-    useRef,
-    useState,
-} from "react";
 import { Button, Tooltip } from "antd";
-import DLL from "../labels/DynamicLanguageLabel";
+import { Children, cloneElement, forwardRef, useEffect, useImperativeHandle, useRef, useState } from "react";
 import { Fade } from "react-awesome-reveal";
+import { DLL } from "./Label";
+import "./PageControl.css";
 import ScrollArea from "./ScrollArea";
 
 const Pages = forwardRef(({ children, onChange, steps, showSteps }, ref) => {
@@ -33,16 +25,11 @@ const Pages = forwardRef(({ children, onChange, steps, showSteps }, ref) => {
             _index(0);
             return;
         }
-        if (
-            self.current.scrollHeight - screenHeight - hasScrolled <
-            screenHeight / 4
-        ) {
+        if (self.current.scrollHeight - screenHeight - hasScrolled < screenHeight / 4) {
             _index(child.current.length - 1);
             return;
         }
-        let targetPageIndex = child.current.findIndex(
-            (page) => hasScrolled < page.offsetTop - screenHeight / 3
-        );
+        let targetPageIndex = child.current.findIndex((page) => hasScrolled < page.offsetTop - screenHeight / 3);
         if (targetPageIndex > 0 && targetPageIndex - 1 !== index) {
             _index(targetPageIndex - 1);
         }
@@ -83,11 +70,7 @@ const Pages = forwardRef(({ children, onChange, steps, showSteps }, ref) => {
                                     <div>
                                         <Button
                                             shape={"circle"}
-                                            type={
-                                                i === step
-                                                    ? "primary"
-                                                    : "default"
-                                            }
+                                            type={i === step ? "primary" : "default"}
                                             onClick={() => scrollTo(i)}
                                         />
                                     </div>

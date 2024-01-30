@@ -9,7 +9,7 @@ import ko_KR from "antd/locale/ko_KR";
 import es_ES from "antd/locale/es_ES";
 import ar_EG from "antd/locale/ar_EG";
 import hi_IN from "antd/locale/hi_IN";
-import {loadCache, saveCache} from "./cache";
+import { loadCache, saveCache } from "./cache";
 
 const localeProvider = {
     en_US: en_US,
@@ -55,4 +55,4 @@ const saveLocale = (value) => {
     saveCache("locale", value);
 };
 
-export {localeProvider, layoutDirection, loadLocale, saveLocale};
+export { localeProvider, layoutDirection, loadLocale, saveLocale };

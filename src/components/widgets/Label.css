@@ -1,4 +1,4 @@
-.Title {
+.DynamicLanguageTitle {
     text-align: center;
     margin: 50px 1em !important;
     font-size: 3.3em !important;
@@ -7,4 +7,13 @@
     display: flex;
     justify-content: center;
     gap: 5px;
+}
+
+.RevealLabel {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.RevealLabel:hover {
+    opacity: 1;
 }

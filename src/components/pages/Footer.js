@@ -1,31 +1,28 @@
-import {Button, Typography} from "antd";
-import "./Footer.css";
-import {Reveal} from "react-awesome-reveal";
-import {FadeUp} from "../animations";
-import {useContext} from "react";
-import {AppConfig} from "../App";
-import DLL from "../labels/DynamicLanguageLabel";
+import { Button, Typography } from "antd";
+import { useContext } from "react";
+import { Reveal } from "react-awesome-reveal";
+import { openLink } from "../../utilities/link";
+import { AppConfig } from "../App";
+import { FadeUp } from "../animations";
+import { DLL } from "../widgets/Label";
 import Remix from "../icons/Remix";
+import "./Footer.css";
 
-function Footer({pageId}) {
-    const {config} = useContext(AppConfig);
-
-    const openLink = (id) => {
-        window.open(config.content[pageId].link[id]).focus();
-    };
+function Footer({ pageId }) {
+    const { config } = useContext(AppConfig);
 
     return (
         <div className={"Footer"}>
             <Typography.Paragraph align={"center"}>
                 <Reveal keyframes={FadeUp(20)} cascade damping={0.1}>
                     <Typography.Text className={"ContactName"} strong>
-                        <DLL c={config.content[pageId].name}/>
+                        <DLL c={config.content[pageId].name} />
                     </Typography.Text>
                     <Typography.Text className={"ContactTitle"} italic>
-                        <DLL c={config.content[pageId].title}/>
+                        <DLL c={config.content[pageId].title} />
                     </Typography.Text>
                     <Typography.Text className={"ContactAddress"}>
-                        <DLL c={config.content[pageId].address}/>
+                        <DLL c={config.content[pageId].address} />
                     </Typography.Text>
                     <Typography.Link
                         underline
@@ -38,30 +35,30 @@ function Footer({pageId}) {
                         <Button
                             type={"text"}
                             shape={"circle"}
-                            icon={<Remix.Meta/>}
+                            icon={<Remix.Meta />}
                             size={"small"}
-                            onClick={() => openLink("meta")}
+                            onClick={() => openLink(config.content[pageId].link["meta"])}
                         />
                         <Button
                             type={"text"}
                             shape={"circle"}
-                            icon={<Remix.Twitter/>}
+                            icon={<Remix.Twitter />}
                             size={"small"}
-                            onClick={() => openLink("twitter")}
+                            onClick={() => openLink(config.content[pageId].link["twitter"])}
                         />
                         <Button
                             type={"text"}
                             shape={"circle"}
-                            icon={<Remix.Linkedin/>}
+                            icon={<Remix.Linkedin />}
                             size={"small"}
-                            onClick={() => openLink("linkedin")}
+                            onClick={() => openLink(config.content[pageId].link["linkedin"])}
                         />
                         <Button
                             type={"text"}
                             shape={"circle"}
-                            icon={<Remix.Github/>}
+                            icon={<Remix.Github />}
                             size={"small"}
-                            onClick={() => openLink("github")}
+                            onClick={() => openLink(config.content[pageId].link["github"])}
                         />
                     </div>
                 </Reveal>

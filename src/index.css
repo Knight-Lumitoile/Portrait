@@ -5,18 +5,19 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.App {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    min-height: 100vh;
+    position: absolute;
 }
 
-/* Firefox */
 * {
     scrollbar-width: thin;
     scrollbar-color: #a0a0a0 #ffffff;
 }
 
-/* Chrome, Edge and Safari */
 *::-webkit-scrollbar {
     height: 13px;
     width: 13px;

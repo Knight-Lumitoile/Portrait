@@ -3,6 +3,6 @@
     cursor: pointer;
 }
 
-.TagGroup .Tag > span:last-child {
+.TagGroup .Tag>span:last-child {
     margin-inline-start: 3px;
 }

@@ -1,15 +1,15 @@
+import { useContext } from "react";
+import { AppConfig } from "../App";
+import Card from "../widgets/Card";
+import { DLT } from "../widgets/Label";
 import "./Wiki.css";
-import Card from "../blocks/Card";
-import Title from "../labels/Title";
-import {useContext} from "react";
-import {AppConfig} from "../App";
 
-function Wiki({pageId}) {
-    const {config} = useContext(AppConfig);
+function Wiki({ pageId }) {
+    const { config } = useContext(AppConfig);
 
     return (
         <div className={"Wiki"}>
-            <Title text={config.pages.find((v) => v.key === pageId).title}/>
+            <DLT text={config.pages.find((v) => v.key === pageId).title} />
             {config.content[pageId].map((v, i) => (
                 <Card
                     key={i}
