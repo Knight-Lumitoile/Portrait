@@ -629,6 +629,105 @@
             },
             {
                 "title": {
+                    "en_US": "Akasha",
+                    "fr_FR": "Akasha",
+                    "it_IT": "Akasha",
+                    "ja_JP": "アカシャ",
+                    "pt_PT": "Akasha",
+                    "ru_RU": "Акаша",
+                    "ko_KR": "아카샤",
+                    "es_ES": "Akasha",
+                    "ar_EG": "أكاشا",
+                    "hi_IN": "आकाश",
+                    "zh_CN": "Akasha"
+                },
+                "timestamp": {
+                    "en_US": "2023",
+                    "fr_FR": "2023",
+                    "it_IT": "2023",
+                    "ja_JP": "2023年",
+                    "pt_PT": "2023",
+                    "ru_RU": "2023",
+                    "ko_KR": "2023",
+                    "es_ES": "2023",
+                    "ar_EG": "2023",
+                    "hi_IN": "2023",
+                    "zh_CN": "2023年"
+                },
+                "subtitle": {
+                    "en_US": "ReactJS",
+                    "fr_FR": "ReactJS",
+                    "it_IT": "ReactJS",
+                    "ja_JP": "ReactJS",
+                    "pt_PT": "ReactJS",
+                    "ru_RU": "ReactJS",
+                    "ko_KR": "ReactJS",
+                    "es_ES": "ReactJS",
+                    "ar_EG": "ReactJS",
+                    "hi_IN": "ReactJS",
+                    "zh_CN": "ReactJS"
+                },
+                "content": [
+                    {
+                        "text": {
+                            "en_US": "A private notebook. Encrypted and decrypted using the XOR algorithm, the note content is edited within the web program, while its data is stored locally after encryption.",
+                            "fr_FR": "Un carnet de notes privé. Chiffré et déchiffré à l'aide de l'algorithme XOR, le contenu de la note est édité dans le programme web, tandis que ses données sont stockées localement après chiffrement.",
+                            "it_IT": "Un notebook privato. Criptato e decifrato utilizzando l'algoritmo XOR, il contenuto della nota viene modificato all'interno del programma web, mentre i dati vengono memorizzati localmente dopo la cifratura.",
+                            "ja_JP": "プライベートノート。XORアルゴリズムを使用して暗号化および復号化され、ノートの内容はウェブプログラム内で編集され、そのデータは暗号化された後にローカルに保存されます。",
+                            "pt_PT": "Um caderno privado. Criptografado e descriptografado usando o algoritmo XOR, o conteúdo da nota é editado dentro do programa web, enquanto seus dados são armazenados localmente após a criptografia.",
+                            "ru_RU": "Личная записная книжка. Зашифровывается и расшифровывается с использованием алгоритма XOR, содержимое заметки редактируется внутри веб-программы, а ее данные хранятся локально после шифрования.",
+                            "ko_KR": "개인 노트북. XOR 알고리즘을 사용하여 암호화 및 복호화되며, 노트 내용은 웹 프로그램 내에서 편집되고 해당 데이터는 암호화 후 로컬에 저장됩니다.",
+                            "es_ES": "Una libreta privada. Encriptada y desencriptada utilizando el algoritmo XOR, el contenido de la nota se edita dentro del programa web, mientras que sus datos se almacenan localmente después de la encriptación.",
+                            "ar_EG": "دفتر ملاحظات خاص. يتم تشفيره وفك تشفيره باستخدام خوارزمية XOR ، ويتم تحرير محتوى المذكرة داخل برنامج الويب ، بينما تُخزن بياناتها محليًا بعد التشفير.",
+                            "hi_IN": "एक निजी नोटबुक। XOR एल्गोरिदम का उपयोग करके एन्क्रिप्ट और डिक्रिप्ट किया जाता है, नोट की सामग्री वेब प्रोग्राम के भीतर संपादित की जाती है, जबकि इसका डेटा एन्क्रिप्ट के बाद स्थानीय रूप से स्टोर किया जाता है।",
+                            "zh_CN": "一个私密笔记本。通过XOR算法进行加密及解密，笔记内容在网页程序内编辑，而其数据在经过加密后储存至本地。"
+                        }
+                    },
+                    {
+                        "text": {
+                            "en_US": "The program itself has good scalability. By changing the code in the data connection part, it can become a multi-platform private notebook.",
+                            "fr_FR": "Le programme lui-même a une bonne extensibilité. En modifiant le code dans la partie connexion de données, il peut devenir un carnet de notes privé multiplateforme.",
+                            "it_IT": "Il programma stesso ha una buona scalabilità. Modificando il codice nella parte di connessione dati, può diventare un notebook privato multi-piattaforma.",
+                            "ja_JP": "プログラム自体は良好な拡張性を持っています。データ接続部分のコードを変更することで、マルチプラットフォームのプライベートノートブックになります。",
+                            "pt_PT": "O programa em si possui boa escalabilidade. Alterando o código na parte de conexão de dados, ele pode se tornar um caderno de notas privado multiplataforma.",
+                            "ru_RU": "Сама программа имеет хорошую масштабируемость. Изменяя код в части подключения данных, она может стать многоплатформенным частным блокнотом.",
+                            "ko_KR": "프로그램 자체가 좋은 확장성을 가지고 있습니다. 데이터 연결 부분의 코드를 변경하면 다중 플랫폼 개인 노트북이 될 수 있습니다.",
+                            "es_ES": "El programa en sí tiene una buena escalabilidad. Al cambiar el código en la parte de conexión de datos, puede convertirse en un cuaderno privado multiplataforma.",
+                            "ar_EG": "البرنامج نفسه لديه قابلية توسع جيدة. من خلال تغيير الكود في جزء اتصال البيانات ، يمكن أن يصبح دفتر ملاحظات خاص متعدد المنصات.",
+                            "hi_IN": "प्रोग्राम इसमें अच्छी स्केलेबिलिटी है। डेटा कनेक्शन भाग में कोड बदलकर, यह एक मल्टी-प्लेटफ़ॉर्म निजी नोटबुक बन सकता है।",
+                            "zh_CN": "程序本身拥有着良好的可拓展性。通过更改数据连接部分的代码即可成为一个多平台的私密笔记本。"
+                        }
+                    },
+                    {
+                        "text": {
+                            "en_US": "In fact, this is a 'tasteless when eaten, but a pity to throw away' scrapped project.",
+                            "fr_FR": "En fait, c'est un projet abandonné 'sans goût quand on le mange, mais dommage de le jeter'.",
+                            "it_IT": "In realtà, questo è un progetto abbandonato 'senza sapore quando mangiato, ma peccato buttarlo via'.",
+                            "ja_JP": "実際、これは '食べても味気なく、捨てるのは惜しい' 廃棄されたプロジェクトです。",
+                            "pt_PT": "Na verdade, este é um projeto abandonado 'sem sabor quando comido, mas uma pena jogar fora'.",
+                            "ru_RU": "На самом деле, это 'безвкусно при поедании, но жалко выбрасывать' брошенный проект.",
+                            "ko_KR": "사실, 이것은 '먹을 때 맛이 없지만 버리기는 아까운' 폐기된 프로젝트입니다.",
+                            "es_ES": "De hecho, este es un proyecto descartado 'sin sabor al comer, pero una lástima tirarlo'.",
+                            "ar_EG": "في الواقع ، هذا مشروع تم التخلي عنه 'لا طعم له عند تناوله ، ولكن من المؤسف رميه' .",
+                            "hi_IN": "वास्तविकता में, यह एक 'खाने पर रुचिरहित, लेकिन फेंकना दुखद' अनुप्रयोग है।",
+                            "zh_CN": "事实上，这是一个「食之无味，弃之可惜」的废案。"
+                        },
+                        "hidden": true
+                    }
+                ],
+                "links": [
+                    {
+                        "name": "Website",
+                        "link": "https://akasha.lhinxue.com"
+                    },
+                    {
+                        "name": "Github",
+                        "link": "https://github.com/Knight-Lumitoile/Akasha"
+                    }
+                ]
+            },
+            {
+                "title": {
                     "en_US": "Turandot",
                     "zh_CN": "图兰朵",
                     "fr_FR": "Turandot",

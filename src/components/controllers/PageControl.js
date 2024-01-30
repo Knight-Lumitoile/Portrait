@@ -1,11 +1,19 @@
 import "./PageControl.css";
-import {Children, cloneElement, forwardRef, useEffect, useImperativeHandle, useRef, useState,} from "react";
-import {Button, Tooltip} from "antd";
+import {
+    Children,
+    cloneElement,
+    forwardRef,
+    useEffect,
+    useImperativeHandle,
+    useRef,
+    useState,
+} from "react";
+import { Button, Tooltip } from "antd";
 import DLL from "../labels/DynamicLanguageLabel";
-import {Fade} from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import ScrollArea from "./ScrollArea";
 
-const Pages = forwardRef(({children, onChange, steps, showSteps}, ref) => {
+const Pages = forwardRef(({ children, onChange, steps, showSteps }, ref) => {
     const child = useRef([]);
     const self = useRef(undefined);
 
@@ -14,7 +22,7 @@ const Pages = forwardRef(({children, onChange, steps, showSteps}, ref) => {
 
     const scrollTo = (pageIndex) => {
         if (pageIndex !== undefined) {
-            child.current[pageIndex].scrollIntoView({behavior: "smooth"});
+            child.current[pageIndex].scrollIntoView({ behavior: "smooth" });
         }
     };
 
@@ -45,7 +53,7 @@ const Pages = forwardRef(({children, onChange, steps, showSteps}, ref) => {
         if (typeof onChange === "function") onChange(index);
     }, [index]);
 
-    useImperativeHandle(ref, () => ({scrollTo}));
+    useImperativeHandle(ref, () => ({ scrollTo }));
 
     return (
         <>
@@ -64,7 +72,8 @@ const Pages = forwardRef(({children, onChange, steps, showSteps}, ref) => {
                         <div className={"Steps"}>
                             {steps.map((v, i) => (
                                 <Tooltip
-                                    title={<DLL c={v.title}/>}
+                                    key={i}
+                                    title={<DLL c={v.title} />}
                                     placement={"left"}
                                     color={"white"}
                                     overlayInnerStyle={{
@@ -74,7 +83,11 @@ const Pages = forwardRef(({children, onChange, steps, showSteps}, ref) => {
                                     <div>
                                         <Button
                                             shape={"circle"}
-                                            type={i === step ? "primary" : "default"}
+                                            type={
+                                                i === step
+                                                    ? "primary"
+                                                    : "default"
+                                            }
                                             onClick={() => scrollTo(i)}
                                         />
                                     </div>
@@ -90,7 +103,7 @@ const Pages = forwardRef(({children, onChange, steps, showSteps}, ref) => {
     );
 });
 
-const Page = forwardRef(({children, ...props}, ref) => {
+const Page = forwardRef(({ children, ...props }, ref) => {
     return (
         <div className={"Page"} ref={ref} {...props}>
             {children}
@@ -98,6 +111,6 @@ const Page = forwardRef(({children, ...props}, ref) => {
     );
 });
 
-const PageControl = {Parent: Pages, Child: Page};
+const PageControl = { Parent: Pages, Child: Page };
 
 export default PageControl;

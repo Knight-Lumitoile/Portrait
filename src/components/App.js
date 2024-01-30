@@ -20,6 +20,7 @@ import Remix from "./icons/Remix";
 import "../fonts/Font.css";
 import BubbleBackground from "./blocks/BubbleBackground";
 import * as antColor from "@ant-design/colors";
+import BGM from "./controllers/BGM";
 
 const AppConfig = createContext(undefined);
 
@@ -110,6 +111,7 @@ function App() {
                         direction={layoutDirection[locale]}
                     >
                         <BubbleBackground />
+                        <BGM start={isAnimationStg2} url={"bgm/Take the Journey.ogg"}/>
                         <div className="App">
                             <ScreenLock active={!isAnimationStg2} />
                             <PageControl.Parent
